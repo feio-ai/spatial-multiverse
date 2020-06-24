@@ -7,7 +7,7 @@
 target/
 /.idea/
 /out*/
-/gen/
+
 /poly/emptiness
 
 resources/files_list

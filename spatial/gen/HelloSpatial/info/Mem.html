@@ -1,0 +1,1874 @@
+<h3 id=x358><a href=IR.html#x358>x358</a> = ArgInNew(init=0)</h3>
+<text><strong>Name</strong>: argin1<br></text>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:6:23<br></text>
+<text><strong>Type</strong>: Reg[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x1<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {}: Cyclic: N=1, B=1, alpha=<>, P=<></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: []<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x358>x358</a>]<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x829>x829</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x364>x364</a>, <a href=IR.html#x829>x829</a>]<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x364>x364</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x364><a href=IR.html#x364>x364</a> = SetReg(mem=<a href=IR.html#x358>x358</a>,data=<a href=IR.html#x363>x363</a>)</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:15:11<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x364>x364</a>]<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x358}, writes={x358})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x829><a href=IR.html#x829>x829</a> = RegRead(mem=<a href=IR.html#x358>x358</a>)</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:55:15<br></text>
+<text><strong>Type</strong>: Fix[TRUE,_32,_0]<br></text>
+<text><strong>NestedInputs</strong>: [<a href=IR.html#x358>x358</a>]<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x841>x841</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x829>x829</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x830>x830</a>, <a href=IR.html#x831>x831</a>, <a href=IR.html#x841>x841</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x841>x841</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x829>x829</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x841>x841</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Effects</strong>: (unique=true, reads={x358})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x359><a href=IR.html#x359>x359</a> = ArgOutNew(init=0)</h3>
+<text><strong>Name</strong>: argout1<br></text>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:7:25<br></text>
+<text><strong>Type</strong>: Reg[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x2<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {}: Cyclic: N=1, B=1, alpha=<>, P=<></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: []<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x359>x359</a>]<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x894>x894</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x838>x838</a>, <a href=IR.html#x894>x894</a>]<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x838>x838</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x838><a href=IR.html#x838>x838</a> = RegWrite(mem=<a href=IR.html#x359>x359</a>,data=<a href=IR.html#x837>x837</a>,ens=[])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:57:15<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>NestedInputs</strong>: [<a href=IR.html#x359>x359</a>, <a href=IR.html#x837>x837</a>]<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x841>x841</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x838>x838</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x841>x841</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x841>x841</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 2.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x836>x836</a>, <a href=IR.html#x834>x834</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x841>x841</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x359}, writes={x359})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x894><a href=IR.html#x894>x894</a> = GetReg(mem=<a href=IR.html#x359>x359</a>)</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:73:25<br></text>
+<text><strong>Type</strong>: Fix[TRUE,_32,_0]<br></text>
+<text><strong>GroupId</strong>: {[]:[1]}<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x894>x894</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x896>x896</a>, <a href=IR.html#x904>x904</a>]<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x894>x894</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x359})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x360><a href=IR.html#x360>x360</a> = HostIONew(init=0)</h3>
+<text><strong>Name</strong>: io1<br></text>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:8:21<br></text>
+<text><strong>Type</strong>: Reg[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x3<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {}: Cyclic: N=1, B=1, alpha=<>, P=<></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: []<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: Buff()<br></text>
+</li>
+</ul>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x360>x360</a>]<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x895>x895</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x368>x368</a>, <a href=IR.html#x840>x840</a>, <a href=IR.html#x895>x895</a>]<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x368>x368</a>, <a href=IR.html#x840>x840</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(2)</th>
+<td>
+<h3 id=x368><a href=IR.html#x368>x368</a> = SetReg(mem=<a href=IR.html#x360>x360</a>,data=<a href=IR.html#x367>x367</a>)</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:17:11<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x368>x368</a>]<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=1,castgroup=[1],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x360}, writes={x360})<br></text>
+</td>
+<td>
+<h3 id=x840><a href=IR.html#x840>x840</a> = RegWrite(mem=<a href=IR.html#x360>x360</a>,data=<a href=IR.html#x839>x839</a>,ens=[])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:58:11<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>NestedInputs</strong>: [<a href=IR.html#x360>x360</a>, <a href=IR.html#x839>x839</a>]<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x841>x841</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x840>x840</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x841>x841</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x841>x841</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 1.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x839>x839</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x841>x841</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x360}, writes={x360})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x895><a href=IR.html#x895>x895</a> = GetReg(mem=<a href=IR.html#x360>x360</a>)</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:74:25<br></text>
+<text><strong>Type</strong>: Fix[TRUE,_32,_0]<br></text>
+<text><strong>GroupId</strong>: {[]:[1]}<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x895>x895</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x899>x899</a>, <a href=IR.html#x905>x905</a>]<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x895>x895</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x360})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x361><a href=IR.html#x361>x361</a> = ArgInNew(init=0)</h3>
+<text><strong>Name</strong>: argin2<br></text>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:13:23<br></text>
+<text><strong>Type</strong>: Reg[Fix[FALSE,_16,_16]]<br></text>
+<text><strong>Aliases</strong>: 0041: x4<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {}: Cyclic: N=1, B=1, alpha=<>, P=<></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: []<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x361>x361</a>]<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x832>x832</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x365>x365</a>, <a href=IR.html#x832>x832</a>]<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x365>x365</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x365><a href=IR.html#x365>x365</a> = SetReg(mem=<a href=IR.html#x361>x361</a>,data=7)</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:16:11<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x365>x365</a>]<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x361}, writes={x361})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x832><a href=IR.html#x832>x832</a> = RegRead(mem=<a href=IR.html#x361>x361</a>)</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:56:15<br></text>
+<text><strong>Type</strong>: Fix[FALSE,_16,_16]<br></text>
+<text><strong>NestedInputs</strong>: [<a href=IR.html#x361>x361</a>]<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x841>x841</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x832>x832</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x833>x833</a>, <a href=IR.html#x841>x841</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x841>x841</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x832>x832</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x841>x841</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Effects</strong>: (unique=true, reads={x361})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x379><a href=IR.html#x379>x379</a> = DRAMHostNew(dims=[64],zero=0)</h3>
+<text><strong>Name</strong>: dram1D<br></text>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:24:34<br></text>
+<text><strong>Type</strong>: DRAM1[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x36<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x379>x379</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x383>x383</a>, <a href=IR.html#x394>x394</a>, <a href=IR.html#x396>x396</a>, <a href=IR.html#x399>x399</a>]<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<h3 id=x380><a href=IR.html#x380>x380</a> = DRAMHostNew(dims=[1024],zero=0)</h3>
+<text><strong>Name</strong>: dram1D_longer<br></text>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:25:34<br></text>
+<text><strong>Type</strong>: DRAM1[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x37<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x380>x380</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x384>x384</a>, <a href=IR.html#x755>x755</a>, <a href=IR.html#x765>x765</a>, <a href=IR.html#x768>x768</a>]<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<h3 id=x381><a href=IR.html#x381>x381</a> = DRAMHostNew(dims=[64, 64],zero=0)</h3>
+<text><strong>Name</strong>: dram2D<br></text>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:26:34<br></text>
+<text><strong>Type</strong>: DRAM2[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x38<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x381>x381</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x385>x385</a>, <a href=IR.html#x421>x421</a>, <a href=IR.html#x424>x424</a>, <a href=IR.html#x427>x427</a>]<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<h3 id=x382><a href=IR.html#x382>x382</a> = DRAMHostNew(dims=[2, 2, 2, 2, 16],zero=0)</h3>
+<text><strong>Name</strong>: dram5D<br></text>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:27:34<br></text>
+<text><strong>Type</strong>: DRAM5[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x39<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x382>x382</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x386>x386</a>, <a href=IR.html#x603>x603</a>, <a href=IR.html#x606>x606</a>, <a href=IR.html#x609>x609</a>]<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<h3 id=x387><a href=IR.html#x387>x387</a> = DRAMHostNew(dims=[32, 32],zero=0)</h3>
+<text><strong>Name</strong>: dram_result2D<br></text>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:34:34<br></text>
+<text><strong>Type</strong>: DRAM2[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x44<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x387>x387</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x643>x643</a>, <a href=IR.html#x646>x646</a>, <a href=IR.html#x735>x735</a>, <a href=IR.html#x845>x845</a>]<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<h3 id=x388><a href=IR.html#x388>x388</a> = DRAMHostNew(dims=[1024],zero=0)</h3>
+<text><strong>Name</strong>: dram_scatter1D<br></text>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:35:35<br></text>
+<text><strong>Type</strong>: DRAM1[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x45<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x388>x388</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x796>x796</a>, <a href=IR.html#x814>x814</a>, <a href=IR.html#x817>x817</a>, <a href=IR.html#x843>x843</a>]<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<h3 id=x389><a href=IR.html#x389>x389</a> = SRAMNew(dims=[64],evidence$1=SRAM1[Fix[TRUE,_32,_0]])</h3>
+<text><strong>Name</strong>: sram1D_0<br></text>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:38:36<br></text>
+<text><strong>Type</strong>: SRAM1[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x46<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {0}: Cyclic: N=1, B=1, alpha=<1>, P=<1></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: [0]<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>DarkVolume</strong>: 0<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x75>x75</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x389>x389</a>]<br></text>
+<text><strong>Padding</strong>: [0]<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x751>x751</a>, <a href=IR.html#x792>x792</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x408>x408</a>, <a href=IR.html#x751>x751</a>, <a href=IR.html#x792>x792</a>, <a href=IR.html#x75>x75</a>]<br></text>
+<text><strong>OriginalSym</strong>: <a href=IR.html#x46>x46</a><br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x75>x75</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x75>x75</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x408>x408</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x408><a href=IR.html#x408>x408</a> = SRAMBankedWrite(mem=<a href=IR.html#x389>x389</a>,data=[<a href=IR.html#x405>x405</a>],bank=[[0]],ofs=[<a href=IR.html#x924>x924</a>],enss=[[<a href=IR.html#x925>x925</a>]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:42:14<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x409>x409</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x408>x408</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x409>x409</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x409>x409</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 1.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x404>x404</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x409>x409</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x389}, writes={x389})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(2)</th>
+<td>
+<h3 id=x751><a href=IR.html#x751>x751</a> = SRAMBankedRead(mem=<a href=IR.html#x389>x389</a>,bank=[[0]],ofs=[<a href=IR.html#b745>b745</a>],enss=[[<a href=IR.html#x748>x748</a>, true, <a href=IR.html#b746>b746</a>]],evidence$4=Vec[Fix[TRUE,_32,_0]])</h3>
+<text><strong>SrcCtx</strong>: MemoryDealiasing.scala:32:17<br></text>
+<text><strong>Type</strong>: Vec[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x767>x767</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x751>x751</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[2]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x752>x752</a>, <a href=IR.html#x767>x767</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x767>x767</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.4<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x751>x751</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x767>x767</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=1,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Effects</strong>: (reads={x389})<br></text>
+</td>
+<td>
+<h3 id=x792><a href=IR.html#x792>x792</a> = SRAMBankedRead(mem=<a href=IR.html#x389>x389</a>,bank=[[0]],ofs=[<a href=IR.html#b785>b785</a>],enss=[[<a href=IR.html#x789>x789</a>, true, <a href=IR.html#b786>b786</a>]],evidence$4=Vec[Fix[TRUE,_32,_0]])</h3>
+<text><strong>SrcCtx</strong>: MemoryDealiasing.scala:32:17<br></text>
+<text><strong>Type</strong>: Vec[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x816>x816</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x792>x792</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x793>x793</a>, <a href=IR.html#x816>x816</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x816>x816</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.4<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x792>x792</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x816>x816</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Effects</strong>: (reads={x389})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x390><a href=IR.html#x390>x390</a> = SRAMNew(dims=[32, 32],evidence$1=SRAM2[Fix[TRUE,_32,_0]])</h3>
+<text><strong>Name</strong>: sram2D_0<br></text>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:39:36<br></text>
+<text><strong>Type</strong>: SRAM2[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x47<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {0,1}: Cyclic: N=16, B=1, alpha=<0,1>, P=<1,16></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: [0, 0]<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>DarkVolume</strong>: 0<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x75>x75</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x390>x390</a>]<br></text>
+<text><strong>Padding</strong>: [0, 0]<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x716>x716</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x576>x576</a>, <a href=IR.html#x716>x716</a>, <a href=IR.html#x75>x75</a>]<br></text>
+<text><strong>OriginalSym</strong>: <a href=IR.html#x47>x47</a><br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x75>x75</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x75>x75</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x576>x576</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x576><a href=IR.html#x576>x576</a> = SRAMBankedWrite(mem=<a href=IR.html#x390>x390</a>,data=[<a href=IR.html#x463>x463</a>, <a href=IR.html#x464>x464</a>, <a href=IR.html#x465>x465</a>, <a href=IR.html#x466>x466</a>, <a href=IR.html#x467>x467</a>, <a href=IR.html#x468>x468</a>, <a href=IR.html#x469>x469</a>, <a href=IR.html#x470>x470</a>, <a href=IR.html#x471>x471</a>, <a href=IR.html#x472>x472</a>, <a href=IR.html#x473>x473</a>, <a href=IR.html#x474>x474</a>, <a href=IR.html#x475>x475</a>, <a href=IR.html#x476>x476</a>, <a href=IR.html#x477>x477</a>, <a href=IR.html#x478>x478</a>],bank=[[0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15]],ofs=[<a href=IR.html#x497>x497</a>, <a href=IR.html#x502>x502</a>, <a href=IR.html#x507>x507</a>, <a href=IR.html#x512>x512</a>, <a href=IR.html#x517>x517</a>, <a href=IR.html#x522>x522</a>, <a href=IR.html#x527>x527</a>, <a href=IR.html#x532>x532</a>, <a href=IR.html#x537>x537</a>, <a href=IR.html#x542>x542</a>, <a href=IR.html#x547>x547</a>, <a href=IR.html#x552>x552</a>, <a href=IR.html#x557>x557</a>, <a href=IR.html#x562>x562</a>, <a href=IR.html#x567>x567</a>, <a href=IR.html#x572>x572</a>],enss=[[<a href=IR.html#x941>x941</a>, <a href=IR.html#x940>x940</a>], [<a href=IR.html#x943>x943</a>, <a href=IR.html#x940>x940</a>], [<a href=IR.html#x931>x931</a>, <a href=IR.html#x940>x940</a>], [<a href=IR.html#x929>x929</a>, <a href=IR.html#x940>x940</a>], [<a href=IR.html#x942>x942</a>, <a href=IR.html#x940>x940</a>], [<a href=IR.html#x937>x937</a>, <a href=IR.html#x940>x940</a>], [<a href=IR.html#x933>x933</a>, <a href=IR.html#x940>x940</a>], [<a href=IR.html#x932>x932</a>, <a href=IR.html#x940>x940</a>], [<a href=IR.html#x945>x945</a>, <a href=IR.html#x940>x940</a>], [<a href=IR.html#x938>x938</a>, <a href=IR.html#x940>x940</a>], [<a href=IR.html#x935>x935</a>, <a href=IR.html#x940>x940</a>], [<a href=IR.html#x936>x936</a>, <a href=IR.html#x940>x940</a>], [<a href=IR.html#x939>x939</a>, <a href=IR.html#x940>x940</a>], [<a href=IR.html#x944>x944</a>, <a href=IR.html#x940>x940</a>], [<a href=IR.html#x930>x930</a>, <a href=IR.html#x940>x940</a>], [<a href=IR.html#x934>x934</a>, <a href=IR.html#x940>x940</a>]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:43:14<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>NestedInputs</strong>: [<a href=IR.html#x474>x474</a>, <a href=IR.html#x929>x929</a>, <a href=IR.html#x932>x932</a>, <a href=IR.html#x937>x937</a>, <a href=IR.html#x472>x472</a>, <a href=IR.html#x944>x944</a>, <a href=IR.html#x572>x572</a>, <a href=IR.html#x939>x939</a>, <a href=IR.html#x497>x497</a>, <a href=IR.html#x930>x930</a>, <a href=IR.html#x562>x562</a>, <a href=IR.html#x467>x467</a>, <a href=IR.html#x527>x527</a>, <a href=IR.html#x567>x567</a>, <a href=IR.html#x517>x517</a>, <a href=IR.html#x933>x933</a>, <a href=IR.html#x473>x473</a>, <a href=IR.html#x942>x942</a>, <a href=IR.html#x542>x542</a>, <a href=IR.html#x941>x941</a>, <a href=IR.html#x465>x465</a>, <a href=IR.html#x476>x476</a>, <a href=IR.html#x390>x390</a>, <a href=IR.html#x507>x507</a>, <a href=IR.html#x471>x471</a>, <a href=IR.html#x935>x935</a>, <a href=IR.html#x532>x532</a>, <a href=IR.html#x522>x522</a>, <a href=IR.html#x547>x547</a>, <a href=IR.html#x943>x943</a>, <a href=IR.html#x940>x940</a>, <a href=IR.html#x468>x468</a>, <a href=IR.html#x934>x934</a>, <a href=IR.html#x557>x557</a>, <a href=IR.html#x477>x477</a>, <a href=IR.html#x469>x469</a>, <a href=IR.html#x464>x464</a>, <a href=IR.html#x537>x537</a>, <a href=IR.html#x931>x931</a>, <a href=IR.html#x936>x936</a>, <a href=IR.html#x470>x470</a>, <a href=IR.html#x938>x938</a>, <a href=IR.html#x478>x478</a>, <a href=IR.html#x475>x475</a>, <a href=IR.html#x502>x502</a>, <a href=IR.html#x463>x463</a>, <a href=IR.html#x945>x945</a>, <a href=IR.html#x512>x512</a>, <a href=IR.html#x466>x466</a>, <a href=IR.html#x552>x552</a>]<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x577>x577</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x576>x576</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x577>x577</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x577>x577</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 1.2<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x462>x462</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x577>x577</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],broadcast=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x390}, writes={x390})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x716><a href=IR.html#x716>x716</a> = SRAMBankedRead(mem=<a href=IR.html#x390>x390</a>,bank=[[<a href=IR.html#x967>x967</a>], [<a href=IR.html#x962>x962</a>], [<a href=IR.html#x958>x958</a>], [<a href=IR.html#x971>x971</a>], [<a href=IR.html#x966>x966</a>], [<a href=IR.html#x960>x960</a>], [<a href=IR.html#x964>x964</a>], [<a href=IR.html#x969>x969</a>]],ofs=[<a href=IR.html#x677>x677</a>, <a href=IR.html#x682>x682</a>, <a href=IR.html#x687>x687</a>, <a href=IR.html#x692>x692</a>, <a href=IR.html#x697>x697</a>, <a href=IR.html#x702>x702</a>, <a href=IR.html#x707>x707</a>, <a href=IR.html#x712>x712</a>],enss=[[<a href=IR.html#x973>x973</a>, <a href=IR.html#x968>x968</a>], [<a href=IR.html#x959>x959</a>, <a href=IR.html#x968>x968</a>], [<a href=IR.html#x961>x961</a>, <a href=IR.html#x968>x968</a>], [<a href=IR.html#x965>x965</a>, <a href=IR.html#x968>x968</a>], [<a href=IR.html#x970>x970</a>, <a href=IR.html#x968>x968</a>], [<a href=IR.html#x972>x972</a>, <a href=IR.html#x968>x968</a>], [<a href=IR.html#x963>x963</a>, <a href=IR.html#x968>x968</a>], [<a href=IR.html#x957>x957</a>, <a href=IR.html#x968>x968</a>]],evidence$4=Vec[Fix[TRUE,_32,_0]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:46:41<br></text>
+<text><strong>Type</strong>: Vec[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>NestedInputs</strong>: [<a href=IR.html#x962>x962</a>, <a href=IR.html#x966>x966</a>, <a href=IR.html#x968>x968</a>, <a href=IR.html#x677>x677</a>, <a href=IR.html#x682>x682</a>, <a href=IR.html#x958>x958</a>, <a href=IR.html#x963>x963</a>, <a href=IR.html#x707>x707</a>, <a href=IR.html#x390>x390</a>, <a href=IR.html#x965>x965</a>, <a href=IR.html#x692>x692</a>, <a href=IR.html#x957>x957</a>, <a href=IR.html#x687>x687</a>, <a href=IR.html#x964>x964</a>, <a href=IR.html#x971>x971</a>, <a href=IR.html#x972>x972</a>, <a href=IR.html#x969>x969</a>, <a href=IR.html#x961>x961</a>, <a href=IR.html#x960>x960</a>, <a href=IR.html#x967>x967</a>, <a href=IR.html#x973>x973</a>, <a href=IR.html#x712>x712</a>, <a href=IR.html#x970>x970</a>, <a href=IR.html#x959>x959</a>, <a href=IR.html#x702>x702</a>, <a href=IR.html#x697>x697</a>]<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x734>x734</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x716>x716</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x717>x717</a>, <a href=IR.html#x721>x721</a>, <a href=IR.html#x723>x723</a>, <a href=IR.html#x724>x724</a>, <a href=IR.html#x718>x718</a>, <a href=IR.html#x722>x722</a>, <a href=IR.html#x720>x720</a>, <a href=IR.html#x734>x734</a>, <a href=IR.html#x719>x719</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x734>x734</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 1.2<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x716>x716</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x734>x734</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0, 1, 2, 3, 4, 5, 6, 7],broadcast=[0, 0, 0, 0, 0, 0, 0, 0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x390})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x391><a href=IR.html#x391>x391</a> = SRAMNew(dims=[2, 2, 2, 2, 16],evidence$1=SRAM5[Fix[TRUE,_32,_0]])</h3>
+<text><strong>Name</strong>: sram5D_0<br></text>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:40:36<br></text>
+<text><strong>Type</strong>: SRAM5[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x48<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {0,1,2,3,4}: Cyclic: N=1, B=1, alpha=<1,1,1,1,1>, P=<1,1,1,1,1></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: [0, 0, 0, 0, 0]<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>DarkVolume</strong>: 0<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x75>x75</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x391>x391</a>]<br></text>
+<text><strong>Padding</strong>: [0, 0, 0, 0, 0]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x630>x630</a>, <a href=IR.html#x75>x75</a>]<br></text>
+<text><strong>OriginalSym</strong>: <a href=IR.html#x48>x48</a><br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x75>x75</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x75>x75</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x630>x630</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x630><a href=IR.html#x630>x630</a> = SRAMBankedWrite(mem=<a href=IR.html#x391>x391</a>,data=[<a href=IR.html#x951>x951</a>],bank=[[0]],ofs=[<a href=IR.html#x628>x628</a>],enss=[[<a href=IR.html#x953>x953</a>, <a href=IR.html#x955>x955</a>, <a href=IR.html#x954>x954</a>, <a href=IR.html#x950>x950</a>, <a href=IR.html#x952>x952</a>]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:44:14<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x631>x631</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x630>x630</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x631>x631</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x631>x631</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 3.2<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x614>x614</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x631>x631</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x391}, writes={x391})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x392><a href=IR.html#x392>x392</a> = StreamOutNew(bus=BurstCmdBus())</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:42:14<br></text>
+<text><strong>Type</strong>: StreamOut[BurstCmd]<br></text>
+<text><strong>Aliases</strong>: 0041: x160<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {0}: Cyclic: N=1, B=1, alpha=<1>, P=<1></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: [0]<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x410>x410</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x392>x392</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x397>x397</a>, <a href=IR.html#x399>x399</a>, <a href=IR.html#x410>x410</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x410>x410</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x410>x410</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x397>x397</a>]<br></text>
+<text><strong>AlignedTransfer</strong>: true<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x397><a href=IR.html#x397>x397</a> = StreamOutBankedWrite(mem=<a href=IR.html#x392>x392</a>,data=[<a href=IR.html#x395>x395</a>],enss=[[<a href=IR.html#x396>x396</a>]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:42:14<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x398>x398</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x397>x397</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x398>x398</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x398>x398</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.0<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x398>x398</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x392}, writes={x392})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x393><a href=IR.html#x393>x393</a> = StreamInNew(bus=BurstDataBus())</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:42:14<br></text>
+<text><strong>Type</strong>: StreamIn[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x161<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {0}: Cyclic: N=1, B=1, alpha=<1>, P=<1></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: [0]<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x410>x410</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x393>x393</a>]<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x404>x404</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x399>x399</a>, <a href=IR.html#x404>x404</a>, <a href=IR.html#x410>x410</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x410>x410</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x410>x410</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x404><a href=IR.html#x404>x404</a> = StreamInBankedRead(mem=<a href=IR.html#x393>x393</a>,enss=[[<a href=IR.html#b403>b403</a>]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:42:14<br></text>
+<text><strong>Type</strong>: Vec[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x409>x409</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x404>x404</a>, <a href=IR.html#x923>x923</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x923>x923</a>, <a href=IR.html#x409>x409</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x409>x409</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x404>x404</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x409>x409</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x393}, writes={x393})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x415><a href=IR.html#x415>x415</a> = StreamOutNew(bus=BurstCmdBus())</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:43:14<br></text>
+<text><strong>Type</strong>: StreamOut[BurstCmd]<br></text>
+<text><strong>Aliases</strong>: 0041: x181<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {0}: Cyclic: N=1, B=1, alpha=<1>, P=<1></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: [0]<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x578>x578</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x415>x415</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x425>x425</a>, <a href=IR.html#x427>x427</a>, <a href=IR.html#x578>x578</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x578>x578</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x578>x578</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x425>x425</a>]<br></text>
+<text><strong>AlignedTransfer</strong>: true<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x425><a href=IR.html#x425>x425</a> = StreamOutBankedWrite(mem=<a href=IR.html#x415>x415</a>,data=[<a href=IR.html#x423>x423</a>],enss=[[<a href=IR.html#x927>x927</a>]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:43:14<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x426>x426</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x425>x425</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x426>x426</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x426>x426</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 3.2<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x426>x426</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x415}, writes={x415})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x416><a href=IR.html#x416>x416</a> = StreamInNew(bus=BurstDataBus())</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:43:14<br></text>
+<text><strong>Type</strong>: StreamIn[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x182<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {0}: Cyclic: N=16, B=1, alpha=<1>, P=<16></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: [15]<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x578>x578</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x416>x416</a>]<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x462>x462</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x427>x427</a>, <a href=IR.html#x462>x462</a>, <a href=IR.html#x578>x578</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x578>x578</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x578>x578</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x462><a href=IR.html#x462>x462</a> = StreamInBankedRead(mem=<a href=IR.html#x416>x416</a>,enss=[[<a href=IR.html#b446>b446</a>, <a href=IR.html#b414>b414</a>], [<a href=IR.html#b447>b447</a>, <a href=IR.html#b414>b414</a>], [<a href=IR.html#b448>b448</a>, <a href=IR.html#b414>b414</a>], [<a href=IR.html#b449>b449</a>, <a href=IR.html#b414>b414</a>], [<a href=IR.html#b450>b450</a>, <a href=IR.html#b414>b414</a>], [<a href=IR.html#b451>b451</a>, <a href=IR.html#b414>b414</a>], [<a href=IR.html#b452>b452</a>, <a href=IR.html#b414>b414</a>], [<a href=IR.html#b453>b453</a>, <a href=IR.html#b414>b414</a>], [<a href=IR.html#b454>b454</a>, <a href=IR.html#b414>b414</a>], [<a href=IR.html#b455>b455</a>, <a href=IR.html#b414>b414</a>], [<a href=IR.html#b456>b456</a>, <a href=IR.html#b414>b414</a>], [<a href=IR.html#b457>b457</a>, <a href=IR.html#b414>b414</a>], [<a href=IR.html#b458>b458</a>, <a href=IR.html#b414>b414</a>], [<a href=IR.html#b459>b459</a>, <a href=IR.html#b414>b414</a>], [<a href=IR.html#b460>b460</a>, <a href=IR.html#b414>b414</a>], [<a href=IR.html#b461>b461</a>, <a href=IR.html#b414>b414</a>]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:43:14<br></text>
+<text><strong>Type</strong>: Vec[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x577>x577</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x462>x462</a>, <a href=IR.html#x928>x928</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x928>x928</a>, <a href=IR.html#x577>x577</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x577>x577</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x462>x462</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x577>x577</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],broadcast=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x416}, writes={x416})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x592><a href=IR.html#x592>x592</a> = StreamOutNew(bus=BurstCmdBus())</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:44:14<br></text>
+<text><strong>Type</strong>: StreamOut[BurstCmd]<br></text>
+<text><strong>Aliases</strong>: 0041: x210<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {0}: Cyclic: N=1, B=1, alpha=<1>, P=<1></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: [0]<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x632>x632</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x592>x592</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x607>x607</a>, <a href=IR.html#x609>x609</a>, <a href=IR.html#x632>x632</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x632>x632</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x632>x632</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x607>x607</a>]<br></text>
+<text><strong>AlignedTransfer</strong>: true<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x607><a href=IR.html#x607>x607</a> = StreamOutBankedWrite(mem=<a href=IR.html#x592>x592</a>,data=[<a href=IR.html#x605>x605</a>],enss=[[<a href=IR.html#x947>x947</a>]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:44:14<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x608>x608</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x607>x607</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x608>x608</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x608>x608</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 4.4<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x608>x608</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x592}, writes={x592})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x593><a href=IR.html#x593>x593</a> = StreamInNew(bus=BurstDataBus())</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:44:14<br></text>
+<text><strong>Type</strong>: StreamIn[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x211<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {0}: Cyclic: N=1, B=1, alpha=<1>, P=<1></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: [0]<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x632>x632</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x593>x593</a>]<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x614>x614</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x609>x609</a>, <a href=IR.html#x614>x614</a>, <a href=IR.html#x632>x632</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x632>x632</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x632>x632</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x614><a href=IR.html#x614>x614</a> = StreamInBankedRead(mem=<a href=IR.html#x593>x593</a>,enss=[[<a href=IR.html#b613>b613</a>, <a href=IR.html#b591>b591</a>, <a href=IR.html#b590>b590</a>, <a href=IR.html#b588>b588</a>, <a href=IR.html#b589>b589</a>]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:44:14<br></text>
+<text><strong>Type</strong>: Vec[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x631>x631</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x614>x614</a>, <a href=IR.html#x948>x948</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x948>x948</a>, <a href=IR.html#x631>x631</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x631>x631</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x614>x614</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x631>x631</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x593}, writes={x593})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x637><a href=IR.html#x637>x637</a> = StreamOutNew(bus=BurstCmdBus())</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:46:41<br></text>
+<text><strong>Type</strong>: StreamOut[BurstCmd]<br></text>
+<text><strong>Aliases</strong>: 0041: x238<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {0}: Cyclic: N=1, B=1, alpha=<1>, P=<1></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: [0]<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x739>x739</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x637>x637</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x647>x647</a>, <a href=IR.html#x735>x735</a>, <a href=IR.html#x739>x739</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x739>x739</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x739>x739</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x647>x647</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x647><a href=IR.html#x647>x647</a> = StreamOutBankedWrite(mem=<a href=IR.html#x637>x637</a>,data=[<a href=IR.html#x645>x645</a>],enss=[[<a href=IR.html#x956>x956</a>]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:46:41<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x648>x648</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x647>x647</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x648>x648</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x648>x648</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 2.2<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x648>x648</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x637}, writes={x637})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x638><a href=IR.html#x638>x638</a> = StreamOutNew(bus=BurstFullDataBus())</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:46:41<br></text>
+<text><strong>Type</strong>: StreamOut[Tup2[Fix[TRUE,_32,_0],Bit]]<br></text>
+<text><strong>Aliases</strong>: 0041: x239<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {0}: Cyclic: N=8, B=1, alpha=<1>, P=<8></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: [7]<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x739>x739</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x638>x638</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x733>x733</a>, <a href=IR.html#x735>x735</a>, <a href=IR.html#x739>x739</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x739>x739</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x739>x739</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x733>x733</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x733><a href=IR.html#x733>x733</a> = StreamOutBankedWrite(mem=<a href=IR.html#x638>x638</a>,data=[<a href=IR.html#x725>x725</a>, <a href=IR.html#x726>x726</a>, <a href=IR.html#x727>x727</a>, <a href=IR.html#x728>x728</a>, <a href=IR.html#x729>x729</a>, <a href=IR.html#x730>x730</a>, <a href=IR.html#x731>x731</a>, <a href=IR.html#x732>x732</a>],enss=[[<a href=IR.html#x982>x982</a>, <a href=IR.html#x979>x979</a>], [<a href=IR.html#x975>x975</a>, <a href=IR.html#x979>x979</a>], [<a href=IR.html#x976>x976</a>, <a href=IR.html#x979>x979</a>], [<a href=IR.html#x978>x978</a>, <a href=IR.html#x979>x979</a>], [<a href=IR.html#x980>x980</a>, <a href=IR.html#x979>x979</a>], [<a href=IR.html#x981>x981</a>, <a href=IR.html#x979>x979</a>], [<a href=IR.html#x977>x977</a>, <a href=IR.html#x979>x979</a>], [<a href=IR.html#x974>x974</a>, <a href=IR.html#x979>x979</a>]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:46:41<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>NestedInputs</strong>: [<a href=IR.html#x980>x980</a>, <a href=IR.html#x729>x729</a>, <a href=IR.html#x975>x975</a>, <a href=IR.html#x725>x725</a>, <a href=IR.html#x981>x981</a>, <a href=IR.html#x974>x974</a>, <a href=IR.html#x728>x728</a>, <a href=IR.html#x977>x977</a>, <a href=IR.html#x731>x731</a>, <a href=IR.html#x727>x727</a>, <a href=IR.html#x638>x638</a>, <a href=IR.html#x982>x982</a>, <a href=IR.html#x978>x978</a>, <a href=IR.html#x976>x976</a>, <a href=IR.html#x726>x726</a>, <a href=IR.html#x979>x979</a>, <a href=IR.html#x730>x730</a>, <a href=IR.html#x732>x732</a>]<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x734>x734</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x733>x733</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x734>x734</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x734>x734</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 3.2<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x716>x716</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x734>x734</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0, 1, 2, 3, 4, 5, 6, 7],broadcast=[0, 0, 0, 0, 0, 0, 0, 0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x638}, writes={x638})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x639><a href=IR.html#x639>x639</a> = StreamInNew(bus=BurstAckBus())</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:46:41<br></text>
+<text><strong>Type</strong>: StreamIn[Bit]<br></text>
+<text><strong>Aliases</strong>: 0041: x240<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {0}: Cyclic: N=1, B=1, alpha=<1>, P=<1></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: [0]<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x739>x739</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x639>x639</a>]<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x736>x736</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x735>x735</a>, <a href=IR.html#x736>x736</a>, <a href=IR.html#x739>x739</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x739>x739</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x739>x739</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x736><a href=IR.html#x736>x736</a> = StreamInBankedRead(mem=<a href=IR.html#x639>x639</a>,enss=[[]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:46:41<br></text>
+<text><strong>Type</strong>: Vec[Bit]<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x738>x738</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x736>x736</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x738>x738</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x738>x738</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x736>x736</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x738>x738</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x639}, writes={x639})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x740><a href=IR.html#x740>x740</a> = SRAMNew(dims=[64],evidence$1=SRAM1[Fix[TRUE,_32,_0]])</h3>
+<text><strong>Name</strong>: gathered_sram_0<br></text>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:48:36<br></text>
+<text><strong>Type</strong>: SRAM1[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x55<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {0}: Cyclic: N=1, B=1, alpha=<1>, P=<1></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: [0]<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>DarkVolume</strong>: 0<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x75>x75</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x740>x740</a>]<br></text>
+<text><strong>Padding</strong>: [0]<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x798>x798</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x778>x778</a>, <a href=IR.html#x798>x798</a>, <a href=IR.html#x75>x75</a>]<br></text>
+<text><strong>OriginalSym</strong>: <a href=IR.html#x55>x55</a><br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x75>x75</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x75>x75</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x778>x778</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x778><a href=IR.html#x778>x778</a> = SRAMBankedWrite(mem=<a href=IR.html#x740>x740</a>,data=[<a href=IR.html#x774>x774</a>],bank=[[0]],ofs=[<a href=IR.html#x994>x994</a>],enss=[[<a href=IR.html#x993>x993</a>, <a href=IR.html#x995>x995</a>]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:49:21<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x779>x779</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x778>x778</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x779>x779</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x779>x779</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 1.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x773>x773</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x779>x779</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x740}, writes={x740})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x798><a href=IR.html#x798>x798</a> = SRAMBankedRead(mem=<a href=IR.html#x740>x740</a>,bank=[[0]],ofs=[<a href=IR.html#b785>b785</a>],enss=[[<a href=IR.html#x789>x789</a>, <a href=IR.html#b786>b786</a>]],evidence$4=Vec[Fix[TRUE,_32,_0]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:51:40<br></text>
+<text><strong>Type</strong>: Vec[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x816>x816</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x798>x798</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x911>x911</a>, <a href=IR.html#x816>x816</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x816>x816</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.4<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x798>x798</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x816>x816</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Effects</strong>: (reads={x740})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x741><a href=IR.html#x741>x741</a> = StreamOutNew(bus=GatherAddrBus())</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:49:21<br></text>
+<text><strong>Type</strong>: StreamOut[Fix[TRUE,_64,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x262<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {0}: Cyclic: N=1, B=1, alpha=<1>, P=<1></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: [0]<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x780>x780</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x741>x741</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x766>x766</a>, <a href=IR.html#x768>x768</a>, <a href=IR.html#x780>x780</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x780>x780</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x780>x780</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x766>x766</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x766><a href=IR.html#x766>x766</a> = StreamOutBankedWrite(mem=<a href=IR.html#x741>x741</a>,data=[<a href=IR.html#x764>x764</a>],enss=[[<a href=IR.html#x990>x990</a>, <a href=IR.html#x991>x991</a>]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:49:21<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x767>x767</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x766>x766</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x767>x767</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x767>x767</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 6.6<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x751>x751</a>, <a href=IR.html#x763>x763</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x767>x767</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x741}, writes={x741})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x742><a href=IR.html#x742>x742</a> = StreamInNew(bus=GatherDataBus())</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:49:21<br></text>
+<text><strong>Type</strong>: StreamIn[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x263<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {0}: Cyclic: N=1, B=1, alpha=<1>, P=<1></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: [0]<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x780>x780</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x742>x742</a>]<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x773>x773</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x768>x768</a>, <a href=IR.html#x773>x773</a>, <a href=IR.html#x780>x780</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x780>x780</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x780>x780</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x773><a href=IR.html#x773>x773</a> = StreamInBankedRead(mem=<a href=IR.html#x742>x742</a>,enss=[[<a href=IR.html#b772>b772</a>]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:49:21<br></text>
+<text><strong>Type</strong>: Vec[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x779>x779</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x773>x773</a>, <a href=IR.html#x992>x992</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x992>x992</a>, <a href=IR.html#x779>x779</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x779>x779</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x773>x773</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x779>x779</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x742}, writes={x742})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x747><a href=IR.html#x747>x747</a> = RegNew(init=0)</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:49:21<br></text>
+<text><strong>Type</strong>: Reg[Fix[TRUE,_64,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x267<br></text>
+<text><strong>NestedInputs</strong>: []<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {}: Cyclic: N=1, B=1, alpha=<>, P=<></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: []<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>DarkVolume</strong>: 0<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x767>x767</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x747>x747</a>]<br></text>
+<text><strong>Padding</strong>: []<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x763>x763</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x759>x759</a>, <a href=IR.html#x763>x763</a>, <a href=IR.html#x767>x767</a>]<br></text>
+<text><strong>OriginalSym</strong>: <a href=IR.html#x267>x267</a><br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x767>x767</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.0<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x767>x767</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x759>x759</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x759><a href=IR.html#x759>x759</a> = RegWrite(mem=<a href=IR.html#x747>x747</a>,data=<a href=IR.html#x987>x987</a>,ens=[<a href=IR.html#x986>x986</a>])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:49:21<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>NestedInputs</strong>: [<a href=IR.html#x747>x747</a>, <a href=IR.html#x987>x987</a>, <a href=IR.html#x986>x986</a>]<br></text>
+<text><strong>InCycle</strong>: true<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x767>x767</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x759>x759</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x767>x767</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x767>x767</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 5.1<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x751>x751</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x767>x767</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x747}, writes={x747})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x763><a href=IR.html#x763>x763</a> = RegRead(mem=<a href=IR.html#x747>x747</a>)</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:49:21<br></text>
+<text><strong>Type</strong>: Fix[TRUE,_64,_0]<br></text>
+<text><strong>InCycle</strong>: true<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x767>x767</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x763>x763</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x764>x764</a>, <a href=IR.html#x767>x767</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x767>x767</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 6.1<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x763>x763</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x767>x767</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (unique=true, reads={x747})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x781><a href=IR.html#x781>x781</a> = StreamOutNew(bus=ScatterCmdBus())</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:51:40<br></text>
+<text><strong>Type</strong>: StreamOut[Tup2[Fix[TRUE,_32,_0],Fix[TRUE,_64,_0]]]<br></text>
+<text><strong>Aliases</strong>: 0041: x293<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {0}: Cyclic: N=1, B=1, alpha=<1>, P=<1></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: [0]<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x825>x825</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x781>x781</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x815>x815</a>, <a href=IR.html#x817>x817</a>, <a href=IR.html#x825>x825</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x825>x825</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x825>x825</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x815>x815</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x815><a href=IR.html#x815>x815</a> = StreamOutBankedWrite(mem=<a href=IR.html#x781>x781</a>,data=[<a href=IR.html#x813>x813</a>],enss=[[<a href=IR.html#x1006>x1006</a>, <a href=IR.html#x1005>x1005</a>]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:51:40<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x816>x816</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x815>x815</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x816>x816</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x816>x816</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 6.1<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x798>x798</a>, <a href=IR.html#x811>x811</a>, <a href=IR.html#x792>x792</a>, <a href=IR.html#x809>x809</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x816>x816</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x781}, writes={x781})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x782><a href=IR.html#x782>x782</a> = StreamInNew(bus=ScatterAckBus())</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:51:40<br></text>
+<text><strong>Type</strong>: StreamIn[Bit]<br></text>
+<text><strong>Aliases</strong>: 0041: x294<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {0}: Cyclic: N=1, B=1, alpha=<1>, P=<1></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: [0]<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x825>x825</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x782>x782</a>]<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x822>x822</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x817>x817</a>, <a href=IR.html#x822>x822</a>, <a href=IR.html#x825>x825</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x825>x825</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x825>x825</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x822><a href=IR.html#x822>x822</a> = StreamInBankedRead(mem=<a href=IR.html#x782>x782</a>,enss=[[<a href=IR.html#b821>b821</a>]])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:51:40<br></text>
+<text><strong>Type</strong>: Vec[Bit]<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x824>x824</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x822>x822</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x824>x824</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x824>x824</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x822>x822</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x824>x824</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x782}, writes={x782})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x787><a href=IR.html#x787>x787</a> = RegNew(init=0)</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:51:40<br></text>
+<text><strong>Type</strong>: Reg[Fix[TRUE,_64,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x298<br></text>
+<text><strong>NestedInputs</strong>: []<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {}: Cyclic: N=1, B=1, alpha=<>, P=<></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: []<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>DarkVolume</strong>: 0<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x816>x816</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x787>x787</a>]<br></text>
+<text><strong>Padding</strong>: []<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x809>x809</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x801>x801</a>, <a href=IR.html#x809>x809</a>, <a href=IR.html#x816>x816</a>]<br></text>
+<text><strong>OriginalSym</strong>: <a href=IR.html#x298>x298</a><br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x816>x816</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.0<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x816>x816</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x801>x801</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x801><a href=IR.html#x801>x801</a> = RegWrite(mem=<a href=IR.html#x787>x787</a>,data=<a href=IR.html#x797>x797</a>,ens=[<a href=IR.html#x997>x997</a>])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:51:40<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>NestedInputs</strong>: [<a href=IR.html#x787>x787</a>, <a href=IR.html#x797>x797</a>, <a href=IR.html#x997>x997</a>]<br></text>
+<text><strong>InCycle</strong>: true<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x816>x816</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x801>x801</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x816>x816</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x816>x816</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 4.6<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x792>x792</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x816>x816</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x787}, writes={x787})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x809><a href=IR.html#x809>x809</a> = RegRead(mem=<a href=IR.html#x787>x787</a>)</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:51:40<br></text>
+<text><strong>Type</strong>: Fix[TRUE,_64,_0]<br></text>
+<text><strong>InCycle</strong>: true<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x816>x816</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x809>x809</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x810>x810</a>, <a href=IR.html#x816>x816</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x816>x816</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 5.6<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x809>x809</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x816>x816</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (unique=true, reads={x787})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x788><a href=IR.html#x788>x788</a> = RegNew(init=0)</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:51:40<br></text>
+<text><strong>Type</strong>: Reg[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x299<br></text>
+<text><strong>NestedInputs</strong>: []<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {}: Cyclic: N=1, B=1, alpha=<>, P=<></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: []<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: None()<br></text>
+</li>
+</ul>
+<text><strong>DarkVolume</strong>: 0<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x816>x816</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x788>x788</a>]<br></text>
+<text><strong>Padding</strong>: []<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x811>x811</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x805>x805</a>, <a href=IR.html#x811>x811</a>, <a href=IR.html#x816>x816</a>]<br></text>
+<text><strong>OriginalSym</strong>: <a href=IR.html#x299>x299</a><br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x816>x816</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.0<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x816>x816</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x805>x805</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x805><a href=IR.html#x805>x805</a> = RegWrite(mem=<a href=IR.html#x788>x788</a>,data=<a href=IR.html#x911>x911</a>,ens=[<a href=IR.html#x998>x998</a>])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:51:40<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>NestedInputs</strong>: [<a href=IR.html#x788>x788</a>, <a href=IR.html#x911>x911</a>, <a href=IR.html#x998>x998</a>]<br></text>
+<text><strong>InCycle</strong>: true<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x816>x816</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x805>x805</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x816>x816</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x816>x816</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 2.4<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x798>x798</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x816>x816</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x788}, writes={x788})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x811><a href=IR.html#x811>x811</a> = RegRead(mem=<a href=IR.html#x788>x788</a>)</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:51:40<br></text>
+<text><strong>Type</strong>: Fix[TRUE,_32,_0]<br></text>
+<text><strong>InCycle</strong>: true<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x816>x816</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x811>x811</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x812>x812</a>, <a href=IR.html#x816>x816</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x816>x816</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 3.4<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x811>x811</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x816>x816</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (unique=true, reads={x788})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x826><a href=IR.html#x826>x826</a> = RegNew(init=5)</h3>
+<text><strong>Name</strong>: reg1_0<br></text>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:53:26<br></text>
+<text><strong>Type</strong>: Reg[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x62<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {}: Cyclic: N=1, B=1, alpha=<>, P=<></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: []<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: Buff()<br></text>
+</li>
+</ul>
+<text><strong>DarkVolume</strong>: 0<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x75>x75</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x826>x826</a>]<br></text>
+<text><strong>Padding</strong>: []<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x836>x836</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x831>x831</a>, <a href=IR.html#x836>x836</a>, <a href=IR.html#x75>x75</a>]<br></text>
+<text><strong>OriginalSym</strong>: <a href=IR.html#x62>x62</a><br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x75>x75</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x75>x75</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x831>x831</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x831><a href=IR.html#x831>x831</a> = RegWrite(mem=<a href=IR.html#x826>x826</a>,data=<a href=IR.html#x829>x829</a>,ens=[])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:55:12<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>NestedInputs</strong>: [<a href=IR.html#x826>x826</a>, <a href=IR.html#x829>x829</a>]<br></text>
+<text><strong>InCycle</strong>: true<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x841>x841</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x831>x831</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x841>x841</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x841>x841</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x829>x829</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x841>x841</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x826}, writes={x826})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x836><a href=IR.html#x836>x836</a> = RegRead(mem=<a href=IR.html#x826>x826</a>)</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:57:18<br></text>
+<text><strong>Type</strong>: Fix[TRUE,_32,_0]<br></text>
+<text><strong>NestedInputs</strong>: [<a href=IR.html#x826>x826</a>]<br></text>
+<text><strong>InCycle</strong>: true<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x841>x841</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x836>x836</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x837>x837</a>, <a href=IR.html#x841>x841</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x841>x841</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 1.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x836>x836</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x841>x841</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Effects</strong>: (unique=true, reads={x826})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x827><a href=IR.html#x827>x827</a> = RegNew(init=5)</h3>
+<text><strong>Name</strong>: reg1_1<br></text>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:53:26<br></text>
+<text><strong>Type</strong>: Reg[Fix[TRUE,_32,_0]]<br></text>
+<text><strong>Aliases</strong>: 0041: x62<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {}: Cyclic: N=1, B=1, alpha=<>, P=<></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: []<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: Buff()<br></text>
+</li>
+</ul>
+<text><strong>DarkVolume</strong>: 0<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x75>x75</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x827>x827</a>]<br></text>
+<text><strong>Padding</strong>: []<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x839>x839</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x830>x830</a>, <a href=IR.html#x839>x839</a>, <a href=IR.html#x75>x75</a>]<br></text>
+<text><strong>OriginalSym</strong>: <a href=IR.html#x62>x62</a><br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x75>x75</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x75>x75</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x830>x830</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x830><a href=IR.html#x830>x830</a> = RegWrite(mem=<a href=IR.html#x827>x827</a>,data=<a href=IR.html#x829>x829</a>,ens=[])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:55:12<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>NestedInputs</strong>: [<a href=IR.html#x827>x827</a>, <a href=IR.html#x829>x829</a>]<br></text>
+<text><strong>InCycle</strong>: true<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x841>x841</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x830>x830</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x841>x841</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x841>x841</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x829>x829</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x841>x841</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x827}, writes={x827})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x839><a href=IR.html#x839>x839</a> = RegRead(mem=<a href=IR.html#x827>x827</a>)</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:58:14<br></text>
+<text><strong>Type</strong>: Fix[TRUE,_32,_0]<br></text>
+<text><strong>NestedInputs</strong>: [<a href=IR.html#x827>x827</a>]<br></text>
+<text><strong>InCycle</strong>: true<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x841>x841</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x839>x839</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x840>x840</a>, <a href=IR.html#x841>x841</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x841>x841</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 1.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x839>x839</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x841>x841</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Effects</strong>: (unique=true, reads={x827})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id=x828><a href=IR.html#x828>x828</a> = RegNew(init=0)</h3>
+<text><strong>Name</strong>: reg2_0<br></text>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:54:21<br></text>
+<text><strong>Type</strong>: Reg[Fix[FALSE,_16,_16]]<br></text>
+<text><strong>Aliases</strong>: 0041: x63<br></text>
+<text><strong>Duplicates</strong><br></text>
+<ul style=list-style-type:disc>
+<li>
+<text><strong>banking</strong><br></text>
+<ul style=list-style-type:none>
+<li>Dims {}: Cyclic: N=1, B=1, alpha=<>, P=<></li>
+</ul>
+<text><strong>depth</strong>: 1<br></text>
+<text><strong>padding</strong>: []<br></text>
+<text><strong>darkVolume</strong>: 0<br></text>
+<text><strong>accType</strong>: Buff()<br></text>
+</li>
+</ul>
+<text><strong>DarkVolume</strong>: 0<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x75>x75</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x828>x828</a>]<br></text>
+<text><strong>Padding</strong>: []<br></text>
+<text><strong>Readers</strong>: [<a href=IR.html#x834>x834</a>]<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x833>x833</a>, <a href=IR.html#x834>x834</a>, <a href=IR.html#x75>x75</a>]<br></text>
+<text><strong>OriginalSym</strong>: <a href=IR.html#x63>x63</a><br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x75>x75</a>), stage=-1)<br></text>
+<text><strong>ReadUses</strong>: []<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x75>x75</a>), block=0)<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Writers</strong>: [<a href=IR.html#x833>x833</a>]<br></text>
+<text><strong>Effects</strong>: Mutable<br></text>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>writers(1)</th>
+<td>
+<h3 id=x833><a href=IR.html#x833>x833</a> = RegWrite(mem=<a href=IR.html#x828>x828</a>,data=<a href=IR.html#x832>x832</a>,ens=[])</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:56:12<br></text>
+<text><strong>Type</strong>: Void<br></text>
+<text><strong>NestedInputs</strong>: [<a href=IR.html#x828>x828</a>, <a href=IR.html#x832>x832</a>]<br></text>
+<text><strong>InCycle</strong>: true<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x841>x841</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x833>x833</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x841>x841</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x841>x841</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 0.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x832>x832</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x841>x841</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>Effects</strong>: (reads={x828}, writes={x828})<br></text>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3 cellpadding=10 cellspacing=10>
+<tbody>
+<tr>
+<th>readers(1)</th>
+<td>
+<h3 id=x834><a href=IR.html#x834>x834</a> = RegRead(mem=<a href=IR.html#x828>x828</a>)</h3>
+<text><strong>SrcCtx</strong>: HelloSpatial.scala:57:30<br></text>
+<text><strong>Type</strong>: Fix[FALSE,_16,_16]<br></text>
+<text><strong>NestedInputs</strong>: [<a href=IR.html#x828>x828</a>]<br></text>
+<text><strong>InCycle</strong>: true<br></text>
+<text><strong>ScopeCtrl</strong>: Scope(s=Some(<a href=IR.html#x841>x841</a>), stage=0, block=0)<br></text>
+<text><strong>ShallowAliases</strong>: [<a href=IR.html#x834>x834</a>]<br></text>
+<text><strong>Dispatch</strong>: {[]:[0]}<br></text>
+<text><strong>GroupId</strong>: {[]:[0]}<br></text>
+<text><strong>Consumers</strong>: [<a href=IR.html#x835>x835</a>, <a href=IR.html#x841>x841</a>]<br></text>
+<text><strong>ParentCtrl</strong>: Ctrl(s=Some(<a href=IR.html#x841>x841</a>), stage=-1)<br></text>
+<text><strong>FullDelay</strong>: 1.0<br></text>
+<text><strong>ReadUses</strong>: [<a href=IR.html#x834>x834</a>]<br></text>
+<text><strong>SegmentMapping</strong>: {0:0}<br></text>
+<text><strong>DefiningBlk</strong>: Blk(s=Some(<a href=IR.html#x841>x841</a>), block=0)<br></text>
+<text><strong>Ports</strong>: {0:{[]:Port(bufferPort=Some(0),muxPort=0,muxOfs=0,castgroup=[0],broadcast=[0])}}<br></text>
+<text><strong>DeepAliases</strong>: []<br></text>
+<text><strong>BroadcastAddress</strong>: false<br></text>
+<text><strong>Effects</strong>: (unique=true, reads={x828})<br></text>
+</td>
+</tr>
+</tbody>
+</table>

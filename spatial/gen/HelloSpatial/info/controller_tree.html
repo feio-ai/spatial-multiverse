@@ -1,0 +1,301 @@
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  </head><body>
+
+    <div data-role="main" class="ui-content" style="overflow-x:scroll;">
+      <h2>Controller Diagram for HelloSpatial (Options: SyncMem, Retimed)</h2>
+      <TABLE BORDER="3" CELLPADDING="10" CELLSPACING="10">
+  
+<!-- Begin x75 -->
+<TD>
+<font size = "6"><a href=IR.html#x75 target=_blank>x75</a>: Sequenced <font size = "4"> (OuterControl)</font>
+<br><font size = "2">HelloSpatial.scala:37:11 <font color="grey">-     Accel {</font></font>
+
+  <div data-role="collapsible"><h4> </h4>
+  <TABLE BORDER="3" CELLPADDING="10" CELLSPACING="10">
+  <!-- Begin x410 -->
+  <TD>
+  <font size = "6"><a href=IR.html#x410 target=_blank>x410</a>: Streaming <font size = "4"> (OuterControl)</font>
+  <br><font size = "2">HelloSpatial.scala:42:14 <font color="grey">-       sram1D load dram1D // Load data from a DRAM of matching dimension</font></font>
+
+    <div data-role="collapsible"><h4> </h4>
+    <TABLE BORDER="3" CELLPADDING="10" CELLSPACING="10">
+    <!-- Begin x398 -->
+    <TD>
+    <font size = "6"><a href=IR.html#x398 target=_blank>x398</a>: Sequenced <font size = "4"> (InnerControl)</font>
+    <br><font size = "2">HelloSpatial.scala:42:14 <font color="grey">-       sram1D load dram1D // Load data from a DRAM of matching dimension</font></font>
+    <p><mark style="border:1px; border-style:solid; border-color:black; padding: 1px; background: #ccc"><font size = "2">Latency=0,  II=0</font></mark></p>
+
+    <div style="border:1px solid black"><font size = "2">Stream Info</font><br><font size = "1"> 
+<p align="right">Set(x392)----->
+    </font></div>
+    </TD>
+    <!-- End x398-->
+    <!-- Begin x409 -->
+    <TD>
+    <font size = "6"><a href=IR.html#x409 target=_blank>x409</a>: Pipelined <font size = "4"> (InnerControl)</font>
+    <br><font size = "2">HelloSpatial.scala:42:14 <font color="grey">-       sram1D load dram1D // Load data from a DRAM of matching dimension</font></font>
+    <p><mark style="border:1px; border-style:solid; border-color:black; padding: 1px; background: #ccc"><font size = "2">Latency=2,  II=1</font></mark></p>
+    <br><font size = "1">Counter: <a href=IR.html#x401 target=_blank>x401</a></font>
+
+    <div style="border:1px solid black"><font size = "2">Stream Info</font><br><font size = "1"> 
+<p align="left">----->Set(x393)
+    </font></div>
+    </TD>
+    <!-- End x409-->
+    </TABLE></div>
+  </TD>
+  <!-- End x410-->
+  <!-- Begin x578 -->
+  <TD>
+  <font size = "6"><a href=IR.html#x578 target=_blank>x578</a>: Streaming <font size = "4"> (OuterControl)</font>
+  <br><font size = "2">HelloSpatial.scala:43:14 <font color="grey">-       sram2D load dram2D(32::64, 0::32 par 16) // Load region from DRAM. In this case, we load the bottom-left quadrant of data from dram2D</font></font>
+  <br><font size = "1">Counter: <a href=IR.html#x412 target=_blank>x412</a></font>
+
+    <div data-role="collapsible"><h4> </h4>
+    <TABLE BORDER="3" CELLPADDING="10" CELLSPACING="10">
+    <!-- Begin x426 -->
+    <TD>
+    <font size = "6"><a href=IR.html#x426 target=_blank>x426</a>: Sequenced <font size = "4"> (InnerControl)</font>
+    <br><font size = "2">HelloSpatial.scala:43:14 <font color="grey">-       sram2D load dram2D(32::64, 0::32 par 16) // Load region from DRAM. In this case, we load the bottom-left quadrant of data from dram2D</font></font>
+    <p><mark style="border:1px; border-style:solid; border-color:black; padding: 1px; background: #ccc"><font size = "2">Latency=3,  II=1</font></mark></p>
+
+    <div style="border:1px solid black"><font size = "2">Stream Info</font><br><font size = "1"> 
+<p align="right">Set(x415)----->
+    </font></div>
+    </TD>
+    <!-- End x426-->
+    <!-- Begin x577 -->
+    <TD>
+    <font size = "6"><a href=IR.html#x577 target=_blank>x577</a>: Pipelined <font size = "4"> (InnerControl)</font>
+    <br><font size = "2">HelloSpatial.scala:43:14 <font color="grey">-       sram2D load dram2D(32::64, 0::32 par 16) // Load region from DRAM. In this case, we load the bottom-left quadrant of data from dram2D</font></font>
+    <p><mark style="border:1px; border-style:solid; border-color:black; padding: 1px; background: #ccc"><font size = "2">Latency=2,  II=1</font></mark></p>
+    <br><font size = "1">Counter: <a href=IR.html#x429 target=_blank>x429</a></font>
+
+    <div style="border:1px solid black"><font size = "2">Stream Info</font><br><font size = "1"> 
+<p align="left">----->Set(x416)
+    </font></div>
+    </TD>
+    <!-- End x577-->
+    </TABLE></div>
+  </TD>
+  <!-- End x578-->
+  <!-- Begin x632 -->
+  <TD>
+  <font size = "6"><a href=IR.html#x632 target=_blank>x632</a>: Streaming <font size = "4"> (OuterControl)</font>
+  <br><font size = "2">HelloSpatial.scala:44:14 <font color="grey">-       sram5D load dram5D // Load 5D tensor</font></font>
+  <br><font size = "1">Counter: <a href=IR.html#x583 target=_blank>x583</a></font>
+
+    <div data-role="collapsible"><h4> </h4>
+    <TABLE BORDER="3" CELLPADDING="10" CELLSPACING="10">
+    <!-- Begin x608 -->
+    <TD>
+    <font size = "6"><a href=IR.html#x608 target=_blank>x608</a>: Sequenced <font size = "4"> (InnerControl)</font>
+    <br><font size = "2">HelloSpatial.scala:44:14 <font color="grey">-       sram5D load dram5D // Load 5D tensor</font></font>
+    <p><mark style="border:1px; border-style:solid; border-color:black; padding: 1px; background: #ccc"><font size = "2">Latency=4,  II=1</font></mark></p>
+
+    <div style="border:1px solid black"><font size = "2">Stream Info</font><br><font size = "1"> 
+<p align="right">Set(x592)----->
+    </font></div>
+    </TD>
+    <!-- End x608-->
+    <!-- Begin x631 -->
+    <TD>
+    <font size = "6"><a href=IR.html#x631 target=_blank>x631</a>: Pipelined <font size = "4"> (InnerControl)</font>
+    <br><font size = "2">HelloSpatial.scala:44:14 <font color="grey">-       sram5D load dram5D // Load 5D tensor</font></font>
+    <p><mark style="border:1px; border-style:solid; border-color:black; padding: 1px; background: #ccc"><font size = "2">Latency=4,  II=1</font></mark></p>
+    <br><font size = "1">Counter: <a href=IR.html#x611 target=_blank>x611</a></font>
+
+    <div style="border:1px solid black"><font size = "2">Stream Info</font><br><font size = "1"> 
+<p align="left">----->Set(x593)
+    </font></div>
+    </TD>
+    <!-- End x631-->
+    </TABLE></div>
+  </TD>
+  <!-- End x632-->
+  <!-- Begin x739 -->
+  <TD>
+  <font size = "6"><a href=IR.html#x739 target=_blank>x739</a>: Streaming <font size = "4"> (OuterControl)</font>
+  <br><font size = "2">HelloSpatial.scala:46:41 <font color="grey">-       dram_result2D(0::32, 0::32 par 8) store sram2D</font></font>
+  <br><font size = "1">Counter: <a href=IR.html#x634 target=_blank>x634</a></font>
+
+    <div data-role="collapsible"><h4> </h4>
+    <TABLE BORDER="3" CELLPADDING="10" CELLSPACING="10">
+    <!-- Begin x648 -->
+    <TD>
+    <font size = "6"><a href=IR.html#x648 target=_blank>x648</a>: Sequenced <font size = "4"> (InnerControl)</font>
+    <br><font size = "2">HelloSpatial.scala:46:41 <font color="grey">-       dram_result2D(0::32, 0::32 par 8) store sram2D</font></font>
+    <p><mark style="border:1px; border-style:solid; border-color:black; padding: 1px; background: #ccc"><font size = "2">Latency=2,  II=1</font></mark></p>
+
+    <div style="border:1px solid black"><font size = "2">Stream Info</font><br><font size = "1"> 
+<p align="right">Set(x637)----->
+    </font></div>
+    </TD>
+    <!-- End x648-->
+    <!-- Begin x734 -->
+    <TD>
+    <font size = "6"><a href=IR.html#x734 target=_blank>x734</a>: Pipelined <font size = "4"> (InnerControl)</font>
+    <br><font size = "2">HelloSpatial.scala:46:41 <font color="grey">-       dram_result2D(0::32, 0::32 par 8) store sram2D</font></font>
+    <p><mark style="border:1px; border-style:solid; border-color:black; padding: 1px; background: #ccc"><font size = "2">Latency=3,  II=1</font></mark></p>
+    <br><font size = "1">Counter: <a href=IR.html#x650 target=_blank>x650</a></font>
+
+    <div style="border:1px solid black"><font size = "2">Stream Info</font><br><font size = "1"> 
+<p align="right">Set(x638)----->
+    </font></div>
+    </TD>
+    <!-- End x734-->
+    <!-- Begin x738 -->
+    <TD>
+    <font size = "6"><a href=IR.html#x738 target=_blank>x738</a>: Sequenced <font size = "4"> (InnerControl)</font>
+    <br><font size = "2">HelloSpatial.scala:46:41 <font color="grey">-       dram_result2D(0::32, 0::32 par 8) store sram2D</font></font>
+    <p><mark style="border:1px; border-style:solid; border-color:black; padding: 1px; background: #ccc"><font size = "2">Latency=1,  II=1</font></mark></p>
+
+    <div style="border:1px solid black"><font size = "2">Stream Info</font><br><font size = "1"> 
+<p align="left">----->Set(x639)
+    </font></div>
+    </TD>
+    <!-- End x738-->
+    </TABLE></div>
+  </TD>
+  <!-- End x739-->
+  <!-- Begin x780 -->
+  <TD>
+  <font size = "6"><a href=IR.html#x780 target=_blank>x780</a>: Streaming <font size = "4"> (OuterControl)</font>
+  <br><font size = "2">HelloSpatial.scala:49:21 <font color="grey">-       gathered_sram gather dram1D_longer(sram1D par 1, 64)  // Use the first 64 elements in sram1D as the addresses in dram1D_longer to collect, and store them into gathered_sram</font></font>
+
+    <div data-role="collapsible"><h4> </h4>
+    <TABLE BORDER="3" CELLPADDING="10" CELLSPACING="10">
+    <!-- Begin x767 -->
+    <TD>
+    <font size = "6"><a href=IR.html#x767 target=_blank>x767</a>: Pipelined <font size = "4"> (InnerControl)</font>
+    <br><font size = "2">HelloSpatial.scala:49:21 <font color="grey">-       gathered_sram gather dram1D_longer(sram1D par 1, 64)  // Use the first 64 elements in sram1D as the addresses in dram1D_longer to collect, and store them into gathered_sram</font></font>
+    <p><mark style="border:1px; border-style:solid; border-color:black; padding: 1px; background: #ccc"><font size = "2">Latency=6,  II=1</font></mark></p>
+    <br><font size = "1">Counter: <a href=IR.html#x744 target=_blank>x744</a></font>
+
+    <div style="border:1px solid black"><font size = "2">Stream Info</font><br><font size = "1"> 
+<p align="right">Set(x741)----->
+    </font></div>
+    </TD>
+    <!-- End x767-->
+    <!-- Begin x779 -->
+    <TD>
+    <font size = "6"><a href=IR.html#x779 target=_blank>x779</a>: Pipelined <font size = "4"> (InnerControl)</font>
+    <br><font size = "2">HelloSpatial.scala:49:21 <font color="grey">-       gathered_sram gather dram1D_longer(sram1D par 1, 64)  // Use the first 64 elements in sram1D as the addresses in dram1D_longer to collect, and store them into gathered_sram</font></font>
+    <p><mark style="border:1px; border-style:solid; border-color:black; padding: 1px; background: #ccc"><font size = "2">Latency=2,  II=1</font></mark></p>
+    <br><font size = "1">Counter: <a href=IR.html#x770 target=_blank>x770</a></font>
+
+    <div style="border:1px solid black"><font size = "2">Stream Info</font><br><font size = "1"> 
+<p align="left">----->Set(x742)
+    </font></div>
+    </TD>
+    <!-- End x779-->
+    </TABLE></div>
+  </TD>
+  <!-- End x780-->
+  <!-- Begin x825 -->
+  <TD>
+  <font size = "6"><a href=IR.html#x825 target=_blank>x825</a>: Streaming <font size = "4"> (OuterControl)</font>
+  <br><font size = "2">HelloSpatial.scala:51:40 <font color="grey">-       dram_scatter1D(sram1D par 1, 64) scatter gathered_sram // For the first 64 elements, place element i of gathered_sram into the address indicated by the i-th element of sram1D</font></font>
+
+    <div data-role="collapsible"><h4> </h4>
+    <TABLE BORDER="3" CELLPADDING="10" CELLSPACING="10">
+    <!-- Begin x816 -->
+    <TD>
+    <font size = "6"><a href=IR.html#x816 target=_blank>x816</a>: Pipelined <font size = "4"> (InnerControl)</font>
+    <br><font size = "2">HelloSpatial.scala:51:40 <font color="grey">-       dram_scatter1D(sram1D par 1, 64) scatter gathered_sram // For the first 64 elements, place element i of gathered_sram into the address indicated by the i-th element of sram1D</font></font>
+    <p><mark style="border:1px; border-style:solid; border-color:black; padding: 1px; background: #ccc"><font size = "2">Latency=6,  II=1</font></mark></p>
+    <br><font size = "1">Counter: <a href=IR.html#x784 target=_blank>x784</a></font>
+
+    <div style="border:1px solid black"><font size = "2">Stream Info</font><br><font size = "1"> 
+<p align="right">Set(x781)----->
+    </font></div>
+    </TD>
+    <!-- End x816-->
+    <!-- Begin x824 -->
+    <TD>
+    <font size = "6"><a href=IR.html#x824 target=_blank>x824</a>: Pipelined <font size = "4"> (InnerControl)</font>
+    <br><font size = "2">HelloSpatial.scala:51:40 <font color="grey">-       dram_scatter1D(sram1D par 1, 64) scatter gathered_sram // For the first 64 elements, place element i of gathered_sram into the address indicated by the i-th element of sram1D</font></font>
+    <p><mark style="border:1px; border-style:solid; border-color:black; padding: 1px; background: #ccc"><font size = "2">Latency=1,  II=1</font></mark></p>
+    <br><font size = "1">Counter: <a href=IR.html#x819 target=_blank>x819</a></font>
+
+    <div style="border:1px solid black"><font size = "2">Stream Info</font><br><font size = "1"> 
+<p align="left">----->Set(x782)
+    </font></div>
+    </TD>
+    <!-- End x824-->
+    </TABLE></div>
+  </TD>
+  <!-- End x825-->
+  <!-- Begin x841 -->
+  <TD>
+  <font size = "6"><a href=IR.html#x841 target=_blank>x841</a>: Sequenced <font size = "4"> (InnerControl)</font>
+  <br><font size = "2">PipeInserter.scala:176:18 <font color="grey">-             Pipe {</font></font>
+  <p><mark style="border:1px; border-style:solid; border-color:black; padding: 1px; background: #ccc"><font size = "2">Latency=3,  II=1</font></mark></p>
+
+  </TD>
+  <!-- End x841-->
+  </TABLE></div>
+</TD>
+<!-- End x75-->
+</TABLE>
+<h4> </h4><TABLE BORDER="3" CELLPADDING="10" CELLSPACING="10">
+<!-- Begin NBuf Mems -->
+<TD>
+NBuf Mems
+  <div data-role="collapsible"><h4> </h4>
+  <TABLE BORDER="3" CELLPADDING="10" CELLSPACING="10">
+  </TABLE></div>
+</TD>
+<!-- End NBuf Mems-->
+<!-- Begin Single-Buffered Mems -->
+<TD>
+Single-Buffered Mems
+  <div data-role="collapsible"><h4> </h4>
+  <TABLE BORDER="3" CELLPADDING="10" CELLSPACING="10">
+  <p><div style="padding: 10px; border: 1px;display:inline-block;background-color: #cce6ff"><font size = "1"><a href=IR.html#x390 target=_blank>x390</a> (BankedSRAM "sram2D_0")
+<br>volume = 1024 (dims List(32, 32) + pads List(0, 0), bw = 32, dv = 0)
+<br>nBanks = List(16), B = List(1), a = List(0, 1), p = List(1, 16)
+<br><div style="display:grid;grid-template-columns: max-content max-content max-content"><div style="border: 1px solid;padding: 5px"><b>muxwidth</b></div> <div style="border: 1px solid;padding: 5px"><b># R lanes</b></div><div style="border: 1px solid;padding: 5px"><b># W Lanes</b></div> <div style="border: 1px solid;padding: 5px">1</div> <div style="border: 1px solid;padding: 5px">0</div><div style="border: 1px solid;padding: 5px">16</div> <div style="border: 1px solid;padding: 5px">2</div> <div style="border: 1px solid;padding: 5px">8</div><div style="border: 1px solid;padding: 5px">0</div> </div>
+  </font></div></p>
+  <p><div style="padding: 10px; border: 1px;display:inline-block;background-color: #cce6ff"><font size = "1"><a href=IR.html#x391 target=_blank>x391</a> (BankedSRAM "sram5D_0")
+<br>volume = 256 (dims List(2, 2, 2, 2, 16) + pads List(0, 0, 0, 0, 0), bw = 32, dv = 0)
+<br>nBanks = List(1), B = List(1), a = List(1, 1, 1, 1, 1), p = List(1, 1, 1, 1, 1)
+<br><div style="display:grid;grid-template-columns: max-content max-content max-content"><div style="border: 1px solid;padding: 5px"><b>muxwidth</b></div> <div style="border: 1px solid;padding: 5px"><b># R lanes</b></div><div style="border: 1px solid;padding: 5px"><b># W Lanes</b></div> <div style="border: 1px solid;padding: 5px">1</div> <div style="border: 1px solid;padding: 5px">0</div><div style="border: 1px solid;padding: 5px">1</div> </div>
+  </font></div></p>
+  <p><div style="padding: 10px; border: 1px;display:inline-block;background-color: #cce6ff"><font size = "1"><a href=IR.html#x740 target=_blank>x740</a> (BankedSRAM "gathered_sram_0")
+<br>volume = 64 (dims List(64) + pads List(0), bw = 32, dv = 0)
+<br>nBanks = List(1), B = List(1), a = List(1), p = List(1)
+<br><div style="display:grid;grid-template-columns: max-content max-content max-content"><div style="border: 1px solid;padding: 5px"><b>muxwidth</b></div> <div style="border: 1px solid;padding: 5px"><b># R lanes</b></div><div style="border: 1px solid;padding: 5px"><b># W Lanes</b></div> <div style="border: 1px solid;padding: 5px">1</div> <div style="border: 1px solid;padding: 5px">1</div><div style="border: 1px solid;padding: 5px">1</div> </div>
+  </font></div></p>
+  <p><div style="padding: 10px; border: 1px;display:inline-block;background-color: #cce6ff"><font size = "1"><a href=IR.html#x389 target=_blank>x389</a> (BankedSRAM "sram1D_0")
+<br>volume = 64 (dims List(64) + pads List(0), bw = 32, dv = 0)
+<br>nBanks = List(1), B = List(1), a = List(1), p = List(1)
+<br><div style="display:grid;grid-template-columns: max-content max-content max-content"><div style="border: 1px solid;padding: 5px"><b>muxwidth</b></div> <div style="border: 1px solid;padding: 5px"><b># R lanes</b></div><div style="border: 1px solid;padding: 5px"><b># W Lanes</b></div> <div style="border: 1px solid;padding: 5px">1</div> <div style="border: 1px solid;padding: 5px">2</div><div style="border: 1px solid;padding: 5px">1</div> </div>
+  </font></div></p>
+  <p><div style="padding: 10px; border: 1px;display:inline-block;background-color: #cce6ff"><font size = "1"><a href=IR.html#x828 target=_blank>x828</a> (FF "reg2_0")
+<br>volume = 1 (dims List() + pads List(), bw = 32, dv = 0)
+<br>nBanks = List(1), B = List(1), a = List(), p = List()
+<br>
+  </font></div></p>
+  <p><div style="padding: 10px; border: 1px;display:inline-block;background-color: #cce6ff"><font size = "1"><a href=IR.html#x827 target=_blank>x827</a> (FF "reg1_1")
+<br>volume = 1 (dims List() + pads List(), bw = 32, dv = 0)
+<br>nBanks = List(1), B = List(1), a = List(), p = List()
+<br>
+  </font></div></p>
+  <p><div style="padding: 10px; border: 1px;display:inline-block;background-color: #cce6ff"><font size = "1"><a href=IR.html#x826 target=_blank>x826</a> (FF "reg1_0")
+<br>volume = 1 (dims List() + pads List(), bw = 32, dv = 0)
+<br>nBanks = List(1), B = List(1), a = List(), p = List()
+<br>
+  </font></div></p>
+  </TABLE></div>
+</TD>
+<!-- End Single-Buffered Mems-->
+</body>
+</html>

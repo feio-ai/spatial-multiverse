@@ -143,7 +143,7 @@ def get_inference_graph(sess, output_node_name):
 with tf.Session(graph=tf.Graph()) as sess:
 
   if input_format == 'saved_model':
-    print 'Reading saved model from ' + model
+    print('Reading saved model from ' + model)
     tf.saved_model.loader.load(sess, [tf.saved_model.tag_constants.SERVING], model)
     # Get the graph
     input_graph_def  = tf.get_default_graph().as_graph_def()

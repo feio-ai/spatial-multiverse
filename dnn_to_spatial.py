@@ -32,7 +32,7 @@ model = args[0]
 # Other Parameters
 # ========================================================================================================
 
-include_imagenet_classification = False # Can set true for CNNs using ImageNet to print classification ranking
+include_imagenet_classification = True # Can set true for CNNs using ImageNet to print classification ranking
 
 
 # ========================================================================================================

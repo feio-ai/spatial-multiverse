@@ -1,0 +1,1354 @@
+images
+  op = Placeholder
+  output size = (1, 224, 224, 3)
+scale5/block1/shortcut/weights
+  op = Const
+  output size = (1, 1, 1024, 2048)
+scale4/block1/shortcut/weights
+  op = Const
+  output size = (1, 1, 512, 1024)
+scale3/block1/shortcut/weights
+  op = Const
+  output size = (1, 1, 256, 512)
+scale2/block1/shortcut/weights
+  op = Const
+  output size = (1, 1, 64, 256)
+scale5/block3/a/batchnorm/sub/_105__cf__105
+  op = Const
+  output size = (512,)
+scale5/block3/b/batchnorm/sub/_103__cf__103
+  op = Const
+  output size = (512,)
+scale5/block3/c/batchnorm/sub/_101__cf__101
+  op = Const
+  output size = (2048,)
+scale5/block2/a/batchnorm/sub/_99__cf__99
+  op = Const
+  output size = (512,)
+scale5/block2/b/batchnorm/sub/_97__cf__97
+  op = Const
+  output size = (512,)
+scale5/block2/c/batchnorm/sub/_95__cf__95
+  op = Const
+  output size = (2048,)
+scale5/block1/a/batchnorm/sub/_93__cf__93
+  op = Const
+  output size = (512,)
+scale5/block1/b/batchnorm/sub/_91__cf__91
+  op = Const
+  output size = (512,)
+scale5/block1/c/batchnorm/sub/_89__cf__89
+  op = Const
+  output size = (2048,)
+scale4/block6/a/batchnorm/sub/_87__cf__87
+  op = Const
+  output size = (256,)
+scale4/block6/b/batchnorm/sub/_85__cf__85
+  op = Const
+  output size = (256,)
+scale4/block6/c/batchnorm/sub/_83__cf__83
+  op = Const
+  output size = (1024,)
+scale4/block5/a/batchnorm/sub/_81__cf__81
+  op = Const
+  output size = (256,)
+scale4/block5/b/batchnorm/sub/_79__cf__79
+  op = Const
+  output size = (256,)
+scale4/block5/c/batchnorm/sub/_77__cf__77
+  op = Const
+  output size = (1024,)
+scale4/block4/a/batchnorm/sub/_75__cf__75
+  op = Const
+  output size = (256,)
+scale4/block4/b/batchnorm/sub/_73__cf__73
+  op = Const
+  output size = (256,)
+scale4/block4/c/batchnorm/sub/_71__cf__71
+  op = Const
+  output size = (1024,)
+scale4/block3/a/batchnorm/sub/_69__cf__69
+  op = Const
+  output size = (256,)
+scale4/block3/b/batchnorm/sub/_67__cf__67
+  op = Const
+  output size = (256,)
+scale4/block3/c/batchnorm/sub/_65__cf__65
+  op = Const
+  output size = (1024,)
+scale4/block2/a/batchnorm/sub/_63__cf__63
+  op = Const
+  output size = (256,)
+scale4/block2/b/batchnorm/sub/_61__cf__61
+  op = Const
+  output size = (256,)
+scale4/block2/c/batchnorm/sub/_59__cf__59
+  op = Const
+  output size = (1024,)
+scale4/block1/a/batchnorm/sub/_57__cf__57
+  op = Const
+  output size = (256,)
+scale4/block1/b/batchnorm/sub/_55__cf__55
+  op = Const
+  output size = (256,)
+scale4/block1/c/batchnorm/sub/_53__cf__53
+  op = Const
+  output size = (1024,)
+scale3/block4/a/batchnorm/sub/_51__cf__51
+  op = Const
+  output size = (128,)
+scale3/block4/b/batchnorm/sub/_49__cf__49
+  op = Const
+  output size = (128,)
+scale3/block4/c/batchnorm/sub/_47__cf__47
+  op = Const
+  output size = (512,)
+scale3/block3/a/batchnorm/sub/_45__cf__45
+  op = Const
+  output size = (128,)
+scale3/block3/b/batchnorm/sub/_43__cf__43
+  op = Const
+  output size = (128,)
+scale3/block3/c/batchnorm/sub/_41__cf__41
+  op = Const
+  output size = (512,)
+scale3/block2/a/batchnorm/sub/_39__cf__39
+  op = Const
+  output size = (128,)
+scale3/block2/b/batchnorm/sub/_37__cf__37
+  op = Const
+  output size = (128,)
+scale3/block2/c/batchnorm/sub/_35__cf__35
+  op = Const
+  output size = (512,)
+scale3/block1/a/batchnorm/sub/_33__cf__33
+  op = Const
+  output size = (128,)
+scale3/block1/b/batchnorm/sub/_31__cf__31
+  op = Const
+  output size = (128,)
+scale3/block1/c/batchnorm/sub/_29__cf__29
+  op = Const
+  output size = (512,)
+scale2/block3/a/batchnorm/sub/_27__cf__27
+  op = Const
+  output size = (64,)
+scale2/block3/b/batchnorm/sub/_25__cf__25
+  op = Const
+  output size = (64,)
+scale2/block3/c/batchnorm/sub/_23__cf__23
+  op = Const
+  output size = (256,)
+scale2/block2/a/batchnorm/sub/_21__cf__21
+  op = Const
+  output size = (64,)
+scale2/block2/b/batchnorm/sub/_19__cf__19
+  op = Const
+  output size = (64,)
+scale2/block2/c/batchnorm/sub/_17__cf__17
+  op = Const
+  output size = (256,)
+scale2/block1/a/batchnorm/sub/_15__cf__15
+  op = Const
+  output size = (64,)
+scale2/block1/b/batchnorm/sub/_13__cf__13
+  op = Const
+  output size = (64,)
+scale2/block1/c/batchnorm/sub/_11__cf__11
+  op = Const
+  output size = (256,)
+scale1/batchnorm/sub/_9__cf__9
+  op = Const
+  output size = (64,)
+scale2/block1/shortcut/batchnorm/sub/_7__cf__7
+  op = Const
+  output size = (256,)
+scale3/block1/shortcut/batchnorm/sub/_5__cf__5
+  op = Const
+  output size = (512,)
+scale4/block1/shortcut/batchnorm/sub/_3__cf__3
+  op = Const
+  output size = (1024,)
+scale5/block1/shortcut/batchnorm/sub/_1__cf__1
+  op = Const
+  output size = (2048,)
+scale5/block3/c/weights
+  op = Const
+  output size = (1, 1, 512, 2048)
+scale5/block3/b/weights
+  op = Const
+  output size = (3, 3, 512, 512)
+scale5/block3/a/weights
+  op = Const
+  output size = (1, 1, 2048, 512)
+scale5/block2/c/weights
+  op = Const
+  output size = (1, 1, 512, 2048)
+scale5/block2/b/weights
+  op = Const
+  output size = (3, 3, 512, 512)
+scale5/block2/a/weights
+  op = Const
+  output size = (1, 1, 2048, 512)
+scale5/block1/c/weights
+  op = Const
+  output size = (1, 1, 512, 2048)
+scale5/block1/b/weights
+  op = Const
+  output size = (3, 3, 512, 512)
+scale5/block1/a/weights
+  op = Const
+  output size = (1, 1, 1024, 512)
+scale4/block6/c/weights
+  op = Const
+  output size = (1, 1, 256, 1024)
+scale4/block6/b/weights
+  op = Const
+  output size = (3, 3, 256, 256)
+scale4/block6/a/weights
+  op = Const
+  output size = (1, 1, 1024, 256)
+scale4/block5/c/weights
+  op = Const
+  output size = (1, 1, 256, 1024)
+scale4/block5/b/weights
+  op = Const
+  output size = (3, 3, 256, 256)
+scale4/block5/a/weights
+  op = Const
+  output size = (1, 1, 1024, 256)
+scale4/block4/c/weights
+  op = Const
+  output size = (1, 1, 256, 1024)
+scale4/block4/b/weights
+  op = Const
+  output size = (3, 3, 256, 256)
+scale4/block4/a/weights
+  op = Const
+  output size = (1, 1, 1024, 256)
+scale4/block3/c/weights
+  op = Const
+  output size = (1, 1, 256, 1024)
+scale4/block3/b/weights
+  op = Const
+  output size = (3, 3, 256, 256)
+scale4/block3/a/weights
+  op = Const
+  output size = (1, 1, 1024, 256)
+scale4/block2/c/weights
+  op = Const
+  output size = (1, 1, 256, 1024)
+scale4/block2/b/weights
+  op = Const
+  output size = (3, 3, 256, 256)
+scale4/block2/a/weights
+  op = Const
+  output size = (1, 1, 1024, 256)
+scale4/block1/c/weights
+  op = Const
+  output size = (1, 1, 256, 1024)
+scale4/block1/b/weights
+  op = Const
+  output size = (3, 3, 256, 256)
+scale4/block1/a/weights
+  op = Const
+  output size = (1, 1, 512, 256)
+scale3/block4/c/weights
+  op = Const
+  output size = (1, 1, 128, 512)
+scale3/block4/b/weights
+  op = Const
+  output size = (3, 3, 128, 128)
+scale3/block4/a/weights
+  op = Const
+  output size = (1, 1, 512, 128)
+scale3/block3/c/weights
+  op = Const
+  output size = (1, 1, 128, 512)
+scale3/block3/b/weights
+  op = Const
+  output size = (3, 3, 128, 128)
+scale3/block3/a/weights
+  op = Const
+  output size = (1, 1, 512, 128)
+scale3/block2/c/weights
+  op = Const
+  output size = (1, 1, 128, 512)
+scale3/block2/b/weights
+  op = Const
+  output size = (3, 3, 128, 128)
+scale3/block2/a/weights
+  op = Const
+  output size = (1, 1, 512, 128)
+scale3/block1/c/weights
+  op = Const
+  output size = (1, 1, 128, 512)
+scale3/block1/b/weights
+  op = Const
+  output size = (3, 3, 128, 128)
+scale3/block1/a/weights
+  op = Const
+  output size = (1, 1, 256, 128)
+scale2/block3/c/weights
+  op = Const
+  output size = (1, 1, 64, 256)
+scale2/block3/b/weights
+  op = Const
+  output size = (3, 3, 64, 64)
+scale2/block3/a/weights
+  op = Const
+  output size = (1, 1, 256, 64)
+scale2/block2/c/weights
+  op = Const
+  output size = (1, 1, 64, 256)
+scale2/block2/b/weights
+  op = Const
+  output size = (3, 3, 64, 64)
+scale2/block2/a/weights
+  op = Const
+  output size = (1, 1, 256, 64)
+scale2/block1/c/weights
+  op = Const
+  output size = (1, 1, 64, 256)
+scale2/block1/b/weights
+  op = Const
+  output size = (3, 3, 64, 64)
+scale2/block1/a/weights
+  op = Const
+  output size = (1, 1, 64, 64)
+scale1/weights
+  op = Const
+  output size = (7, 7, 3, 64)
+mul/y
+  op = Const
+  output size = ()
+mul
+  op = Mul
+  output size = (1, 224, 224, 3)
+  in0 = images
+  in1 = mul/y
+split/split_dim
+  op = Const
+  output size = ()
+split
+  op = Split
+  output size = (1, 224, 224, 1)
+  in0 = split/split_dim
+  in1 = mul
+concat/concat_dim
+  op = Const
+  output size = ()
+concat
+  op = Concat
+  output size = (1, 224, 224, 3)
+  in0 = concat/concat_dim
+  in1 = split:2
+  in2 = split:1
+  in3 = split
+sub/y
+  op = Const
+  output size = (3,)
+sub
+  op = Sub
+  output size = (1, 224, 224, 3)
+  in0 = concat
+  in1 = sub/y
+scale1/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 112, 112, 64)
+  padding = SAME
+  stride = [1L, 2L, 2L, 1L]
+  k = (7, 7, 3, 64)
+  in0 = sub
+  in1 = scale1/weights
+scale1/batchnorm/add_1
+  op = Add
+  output size = (1, 112, 112, 64)
+  in0 = scale1/batchnorm/mul_1
+  in1 = scale1/batchnorm/sub/_9__cf__9
+scale1/Relu
+  op = Relu
+  output size = (1, 112, 112, 64)
+  in0 = scale1/batchnorm/add_1
+scale2/MaxPool
+  op = MaxPool
+  output size = (1, 56, 56, 64)
+  stride = [1L, 2L, 2L, 1L]
+  k = [1L, 3L, 3L, 1L]
+  in0 = scale1/Relu
+scale2/block1/a/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 56, 56, 64)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 64, 64)
+  in0 = scale2/MaxPool
+  in1 = scale2/block1/a/weights
+scale2/block1/a/batchnorm/add_1
+  op = Add
+  output size = (1, 56, 56, 64)
+  in0 = scale2/block1/a/batchnorm/mul_1
+  in1 = scale2/block1/a/batchnorm/sub/_15__cf__15
+scale2/block1/a/Relu
+  op = Relu
+  output size = (1, 56, 56, 64)
+  in0 = scale2/block1/a/batchnorm/add_1
+scale2/block1/b/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 56, 56, 64)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (3, 3, 64, 64)
+  in0 = scale2/block1/a/Relu
+  in1 = scale2/block1/b/weights
+scale2/block1/b/batchnorm/add_1
+  op = Add
+  output size = (1, 56, 56, 64)
+  in0 = scale2/block1/b/batchnorm/mul_1
+  in1 = scale2/block1/b/batchnorm/sub/_13__cf__13
+scale2/block1/b/Relu
+  op = Relu
+  output size = (1, 56, 56, 64)
+  in0 = scale2/block1/b/batchnorm/add_1
+scale2/block1/c/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 56, 56, 256)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 64, 256)
+  in0 = scale2/block1/b/Relu
+  in1 = scale2/block1/c/weights
+scale2/block1/c/batchnorm/add_1
+  op = Add
+  output size = (1, 56, 56, 256)
+  in0 = scale2/block1/c/batchnorm/mul_1
+  in1 = scale2/block1/c/batchnorm/sub/_11__cf__11
+scale2/block1/shortcut/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 56, 56, 256)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 64, 256)
+  in0 = scale2/MaxPool
+  in1 = scale2/block1/shortcut/weights
+scale2/block1/shortcut/batchnorm/add_1
+  op = Add
+  output size = (1, 56, 56, 256)
+  in0 = scale2/block1/shortcut/batchnorm/mul_1
+  in1 = scale2/block1/shortcut/batchnorm/sub/_7__cf__7
+scale2/block1/add
+  op = Add
+  output size = (1, 56, 56, 256)
+  in0 = scale2/block1/c/batchnorm/add_1
+  in1 = scale2/block1/shortcut/batchnorm/add_1
+scale2/block1/Relu
+  op = Relu
+  output size = (1, 56, 56, 256)
+  in0 = scale2/block1/add
+scale2/block2/a/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 56, 56, 64)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 256, 64)
+  in0 = scale2/block1/Relu
+  in1 = scale2/block2/a/weights
+scale2/block2/a/batchnorm/add_1
+  op = Add
+  output size = (1, 56, 56, 64)
+  in0 = scale2/block2/a/batchnorm/mul_1
+  in1 = scale2/block2/a/batchnorm/sub/_21__cf__21
+scale2/block2/a/Relu
+  op = Relu
+  output size = (1, 56, 56, 64)
+  in0 = scale2/block2/a/batchnorm/add_1
+scale2/block2/b/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 56, 56, 64)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (3, 3, 64, 64)
+  in0 = scale2/block2/a/Relu
+  in1 = scale2/block2/b/weights
+scale2/block2/b/batchnorm/add_1
+  op = Add
+  output size = (1, 56, 56, 64)
+  in0 = scale2/block2/b/batchnorm/mul_1
+  in1 = scale2/block2/b/batchnorm/sub/_19__cf__19
+scale2/block2/b/Relu
+  op = Relu
+  output size = (1, 56, 56, 64)
+  in0 = scale2/block2/b/batchnorm/add_1
+scale2/block2/c/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 56, 56, 256)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 64, 256)
+  in0 = scale2/block2/b/Relu
+  in1 = scale2/block2/c/weights
+scale2/block2/c/batchnorm/add_1
+  op = Add
+  output size = (1, 56, 56, 256)
+  in0 = scale2/block2/c/batchnorm/mul_1
+  in1 = scale2/block2/c/batchnorm/sub/_17__cf__17
+scale2/block2/add
+  op = Add
+  output size = (1, 56, 56, 256)
+  in0 = scale2/block2/c/batchnorm/add_1
+  in1 = scale2/block1/Relu
+scale2/block2/Relu
+  op = Relu
+  output size = (1, 56, 56, 256)
+  in0 = scale2/block2/add
+scale2/block3/a/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 56, 56, 64)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 256, 64)
+  in0 = scale2/block2/Relu
+  in1 = scale2/block3/a/weights
+scale2/block3/a/batchnorm/add_1
+  op = Add
+  output size = (1, 56, 56, 64)
+  in0 = scale2/block3/a/batchnorm/mul_1
+  in1 = scale2/block3/a/batchnorm/sub/_27__cf__27
+scale2/block3/a/Relu
+  op = Relu
+  output size = (1, 56, 56, 64)
+  in0 = scale2/block3/a/batchnorm/add_1
+scale2/block3/b/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 56, 56, 64)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (3, 3, 64, 64)
+  in0 = scale2/block3/a/Relu
+  in1 = scale2/block3/b/weights
+scale2/block3/b/batchnorm/add_1
+  op = Add
+  output size = (1, 56, 56, 64)
+  in0 = scale2/block3/b/batchnorm/mul_1
+  in1 = scale2/block3/b/batchnorm/sub/_25__cf__25
+scale2/block3/b/Relu
+  op = Relu
+  output size = (1, 56, 56, 64)
+  in0 = scale2/block3/b/batchnorm/add_1
+scale2/block3/c/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 56, 56, 256)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 64, 256)
+  in0 = scale2/block3/b/Relu
+  in1 = scale2/block3/c/weights
+scale2/block3/c/batchnorm/add_1
+  op = Add
+  output size = (1, 56, 56, 256)
+  in0 = scale2/block3/c/batchnorm/mul_1
+  in1 = scale2/block3/c/batchnorm/sub/_23__cf__23
+scale2/block3/add
+  op = Add
+  output size = (1, 56, 56, 256)
+  in0 = scale2/block3/c/batchnorm/add_1
+  in1 = scale2/block2/Relu
+scale2/block3/Relu
+  op = Relu
+  output size = (1, 56, 56, 256)
+  in0 = scale2/block3/add
+scale3/block1/a/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 28, 28, 128)
+  padding = SAME
+  stride = [1L, 2L, 2L, 1L]
+  k = (1, 1, 256, 128)
+  in0 = scale2/block3/Relu
+  in1 = scale3/block1/a/weights
+scale3/block1/a/batchnorm/add_1
+  op = Add
+  output size = (1, 28, 28, 128)
+  in0 = scale3/block1/a/batchnorm/mul_1
+  in1 = scale3/block1/a/batchnorm/sub/_33__cf__33
+scale3/block1/a/Relu
+  op = Relu
+  output size = (1, 28, 28, 128)
+  in0 = scale3/block1/a/batchnorm/add_1
+scale3/block1/b/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 28, 28, 128)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (3, 3, 128, 128)
+  in0 = scale3/block1/a/Relu
+  in1 = scale3/block1/b/weights
+scale3/block1/b/batchnorm/add_1
+  op = Add
+  output size = (1, 28, 28, 128)
+  in0 = scale3/block1/b/batchnorm/mul_1
+  in1 = scale3/block1/b/batchnorm/sub/_31__cf__31
+scale3/block1/b/Relu
+  op = Relu
+  output size = (1, 28, 28, 128)
+  in0 = scale3/block1/b/batchnorm/add_1
+scale3/block1/c/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 28, 28, 512)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 128, 512)
+  in0 = scale3/block1/b/Relu
+  in1 = scale3/block1/c/weights
+scale3/block1/c/batchnorm/add_1
+  op = Add
+  output size = (1, 28, 28, 512)
+  in0 = scale3/block1/c/batchnorm/mul_1
+  in1 = scale3/block1/c/batchnorm/sub/_29__cf__29
+scale3/block1/shortcut/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 28, 28, 512)
+  padding = SAME
+  stride = [1L, 2L, 2L, 1L]
+  k = (1, 1, 256, 512)
+  in0 = scale2/block3/Relu
+  in1 = scale3/block1/shortcut/weights
+scale3/block1/shortcut/batchnorm/add_1
+  op = Add
+  output size = (1, 28, 28, 512)
+  in0 = scale3/block1/shortcut/batchnorm/mul_1
+  in1 = scale3/block1/shortcut/batchnorm/sub/_5__cf__5
+scale3/block1/add
+  op = Add
+  output size = (1, 28, 28, 512)
+  in0 = scale3/block1/c/batchnorm/add_1
+  in1 = scale3/block1/shortcut/batchnorm/add_1
+scale3/block1/Relu
+  op = Relu
+  output size = (1, 28, 28, 512)
+  in0 = scale3/block1/add
+scale3/block2/a/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 28, 28, 128)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 512, 128)
+  in0 = scale3/block1/Relu
+  in1 = scale3/block2/a/weights
+scale3/block2/a/batchnorm/add_1
+  op = Add
+  output size = (1, 28, 28, 128)
+  in0 = scale3/block2/a/batchnorm/mul_1
+  in1 = scale3/block2/a/batchnorm/sub/_39__cf__39
+scale3/block2/a/Relu
+  op = Relu
+  output size = (1, 28, 28, 128)
+  in0 = scale3/block2/a/batchnorm/add_1
+scale3/block2/b/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 28, 28, 128)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (3, 3, 128, 128)
+  in0 = scale3/block2/a/Relu
+  in1 = scale3/block2/b/weights
+scale3/block2/b/batchnorm/add_1
+  op = Add
+  output size = (1, 28, 28, 128)
+  in0 = scale3/block2/b/batchnorm/mul_1
+  in1 = scale3/block2/b/batchnorm/sub/_37__cf__37
+scale3/block2/b/Relu
+  op = Relu
+  output size = (1, 28, 28, 128)
+  in0 = scale3/block2/b/batchnorm/add_1
+scale3/block2/c/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 28, 28, 512)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 128, 512)
+  in0 = scale3/block2/b/Relu
+  in1 = scale3/block2/c/weights
+scale3/block2/c/batchnorm/add_1
+  op = Add
+  output size = (1, 28, 28, 512)
+  in0 = scale3/block2/c/batchnorm/mul_1
+  in1 = scale3/block2/c/batchnorm/sub/_35__cf__35
+scale3/block2/add
+  op = Add
+  output size = (1, 28, 28, 512)
+  in0 = scale3/block2/c/batchnorm/add_1
+  in1 = scale3/block1/Relu
+scale3/block2/Relu
+  op = Relu
+  output size = (1, 28, 28, 512)
+  in0 = scale3/block2/add
+scale3/block3/a/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 28, 28, 128)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 512, 128)
+  in0 = scale3/block2/Relu
+  in1 = scale3/block3/a/weights
+scale3/block3/a/batchnorm/add_1
+  op = Add
+  output size = (1, 28, 28, 128)
+  in0 = scale3/block3/a/batchnorm/mul_1
+  in1 = scale3/block3/a/batchnorm/sub/_45__cf__45
+scale3/block3/a/Relu
+  op = Relu
+  output size = (1, 28, 28, 128)
+  in0 = scale3/block3/a/batchnorm/add_1
+scale3/block3/b/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 28, 28, 128)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (3, 3, 128, 128)
+  in0 = scale3/block3/a/Relu
+  in1 = scale3/block3/b/weights
+scale3/block3/b/batchnorm/add_1
+  op = Add
+  output size = (1, 28, 28, 128)
+  in0 = scale3/block3/b/batchnorm/mul_1
+  in1 = scale3/block3/b/batchnorm/sub/_43__cf__43
+scale3/block3/b/Relu
+  op = Relu
+  output size = (1, 28, 28, 128)
+  in0 = scale3/block3/b/batchnorm/add_1
+scale3/block3/c/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 28, 28, 512)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 128, 512)
+  in0 = scale3/block3/b/Relu
+  in1 = scale3/block3/c/weights
+scale3/block3/c/batchnorm/add_1
+  op = Add
+  output size = (1, 28, 28, 512)
+  in0 = scale3/block3/c/batchnorm/mul_1
+  in1 = scale3/block3/c/batchnorm/sub/_41__cf__41
+scale3/block3/add
+  op = Add
+  output size = (1, 28, 28, 512)
+  in0 = scale3/block3/c/batchnorm/add_1
+  in1 = scale3/block2/Relu
+scale3/block3/Relu
+  op = Relu
+  output size = (1, 28, 28, 512)
+  in0 = scale3/block3/add
+scale3/block4/a/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 28, 28, 128)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 512, 128)
+  in0 = scale3/block3/Relu
+  in1 = scale3/block4/a/weights
+scale3/block4/a/batchnorm/add_1
+  op = Add
+  output size = (1, 28, 28, 128)
+  in0 = scale3/block4/a/batchnorm/mul_1
+  in1 = scale3/block4/a/batchnorm/sub/_51__cf__51
+scale3/block4/a/Relu
+  op = Relu
+  output size = (1, 28, 28, 128)
+  in0 = scale3/block4/a/batchnorm/add_1
+scale3/block4/b/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 28, 28, 128)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (3, 3, 128, 128)
+  in0 = scale3/block4/a/Relu
+  in1 = scale3/block4/b/weights
+scale3/block4/b/batchnorm/add_1
+  op = Add
+  output size = (1, 28, 28, 128)
+  in0 = scale3/block4/b/batchnorm/mul_1
+  in1 = scale3/block4/b/batchnorm/sub/_49__cf__49
+scale3/block4/b/Relu
+  op = Relu
+  output size = (1, 28, 28, 128)
+  in0 = scale3/block4/b/batchnorm/add_1
+scale3/block4/c/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 28, 28, 512)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 128, 512)
+  in0 = scale3/block4/b/Relu
+  in1 = scale3/block4/c/weights
+scale3/block4/c/batchnorm/add_1
+  op = Add
+  output size = (1, 28, 28, 512)
+  in0 = scale3/block4/c/batchnorm/mul_1
+  in1 = scale3/block4/c/batchnorm/sub/_47__cf__47
+scale3/block4/add
+  op = Add
+  output size = (1, 28, 28, 512)
+  in0 = scale3/block4/c/batchnorm/add_1
+  in1 = scale3/block3/Relu
+scale3/block4/Relu
+  op = Relu
+  output size = (1, 28, 28, 512)
+  in0 = scale3/block4/add
+scale4/block1/a/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 256)
+  padding = SAME
+  stride = [1L, 2L, 2L, 1L]
+  k = (1, 1, 512, 256)
+  in0 = scale3/block4/Relu
+  in1 = scale4/block1/a/weights
+scale4/block1/a/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block1/a/batchnorm/mul_1
+  in1 = scale4/block1/a/batchnorm/sub/_57__cf__57
+scale4/block1/a/Relu
+  op = Relu
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block1/a/batchnorm/add_1
+scale4/block1/b/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 256)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (3, 3, 256, 256)
+  in0 = scale4/block1/a/Relu
+  in1 = scale4/block1/b/weights
+scale4/block1/b/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block1/b/batchnorm/mul_1
+  in1 = scale4/block1/b/batchnorm/sub/_55__cf__55
+scale4/block1/b/Relu
+  op = Relu
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block1/b/batchnorm/add_1
+scale4/block1/c/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 1024)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 256, 1024)
+  in0 = scale4/block1/b/Relu
+  in1 = scale4/block1/c/weights
+scale4/block1/c/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block1/c/batchnorm/mul_1
+  in1 = scale4/block1/c/batchnorm/sub/_53__cf__53
+scale4/block1/shortcut/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 1024)
+  padding = SAME
+  stride = [1L, 2L, 2L, 1L]
+  k = (1, 1, 512, 1024)
+  in0 = scale3/block4/Relu
+  in1 = scale4/block1/shortcut/weights
+scale4/block1/shortcut/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block1/shortcut/batchnorm/mul_1
+  in1 = scale4/block1/shortcut/batchnorm/sub/_3__cf__3
+scale4/block1/add
+  op = Add
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block1/c/batchnorm/add_1
+  in1 = scale4/block1/shortcut/batchnorm/add_1
+scale4/block1/Relu
+  op = Relu
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block1/add
+scale4/block2/a/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 256)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 1024, 256)
+  in0 = scale4/block1/Relu
+  in1 = scale4/block2/a/weights
+scale4/block2/a/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block2/a/batchnorm/mul_1
+  in1 = scale4/block2/a/batchnorm/sub/_63__cf__63
+scale4/block2/a/Relu
+  op = Relu
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block2/a/batchnorm/add_1
+scale4/block2/b/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 256)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (3, 3, 256, 256)
+  in0 = scale4/block2/a/Relu
+  in1 = scale4/block2/b/weights
+scale4/block2/b/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block2/b/batchnorm/mul_1
+  in1 = scale4/block2/b/batchnorm/sub/_61__cf__61
+scale4/block2/b/Relu
+  op = Relu
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block2/b/batchnorm/add_1
+scale4/block2/c/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 1024)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 256, 1024)
+  in0 = scale4/block2/b/Relu
+  in1 = scale4/block2/c/weights
+scale4/block2/c/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block2/c/batchnorm/mul_1
+  in1 = scale4/block2/c/batchnorm/sub/_59__cf__59
+scale4/block2/add
+  op = Add
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block2/c/batchnorm/add_1
+  in1 = scale4/block1/Relu
+scale4/block2/Relu
+  op = Relu
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block2/add
+scale4/block3/a/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 256)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 1024, 256)
+  in0 = scale4/block2/Relu
+  in1 = scale4/block3/a/weights
+scale4/block3/a/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block3/a/batchnorm/mul_1
+  in1 = scale4/block3/a/batchnorm/sub/_69__cf__69
+scale4/block3/a/Relu
+  op = Relu
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block3/a/batchnorm/add_1
+scale4/block3/b/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 256)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (3, 3, 256, 256)
+  in0 = scale4/block3/a/Relu
+  in1 = scale4/block3/b/weights
+scale4/block3/b/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block3/b/batchnorm/mul_1
+  in1 = scale4/block3/b/batchnorm/sub/_67__cf__67
+scale4/block3/b/Relu
+  op = Relu
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block3/b/batchnorm/add_1
+scale4/block3/c/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 1024)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 256, 1024)
+  in0 = scale4/block3/b/Relu
+  in1 = scale4/block3/c/weights
+scale4/block3/c/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block3/c/batchnorm/mul_1
+  in1 = scale4/block3/c/batchnorm/sub/_65__cf__65
+scale4/block3/add
+  op = Add
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block3/c/batchnorm/add_1
+  in1 = scale4/block2/Relu
+scale4/block3/Relu
+  op = Relu
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block3/add
+scale4/block4/a/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 256)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 1024, 256)
+  in0 = scale4/block3/Relu
+  in1 = scale4/block4/a/weights
+scale4/block4/a/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block4/a/batchnorm/mul_1
+  in1 = scale4/block4/a/batchnorm/sub/_75__cf__75
+scale4/block4/a/Relu
+  op = Relu
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block4/a/batchnorm/add_1
+scale4/block4/b/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 256)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (3, 3, 256, 256)
+  in0 = scale4/block4/a/Relu
+  in1 = scale4/block4/b/weights
+scale4/block4/b/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block4/b/batchnorm/mul_1
+  in1 = scale4/block4/b/batchnorm/sub/_73__cf__73
+scale4/block4/b/Relu
+  op = Relu
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block4/b/batchnorm/add_1
+scale4/block4/c/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 1024)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 256, 1024)
+  in0 = scale4/block4/b/Relu
+  in1 = scale4/block4/c/weights
+scale4/block4/c/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block4/c/batchnorm/mul_1
+  in1 = scale4/block4/c/batchnorm/sub/_71__cf__71
+scale4/block4/add
+  op = Add
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block4/c/batchnorm/add_1
+  in1 = scale4/block3/Relu
+scale4/block4/Relu
+  op = Relu
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block4/add
+scale4/block5/a/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 256)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 1024, 256)
+  in0 = scale4/block4/Relu
+  in1 = scale4/block5/a/weights
+scale4/block5/a/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block5/a/batchnorm/mul_1
+  in1 = scale4/block5/a/batchnorm/sub/_81__cf__81
+scale4/block5/a/Relu
+  op = Relu
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block5/a/batchnorm/add_1
+scale4/block5/b/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 256)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (3, 3, 256, 256)
+  in0 = scale4/block5/a/Relu
+  in1 = scale4/block5/b/weights
+scale4/block5/b/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block5/b/batchnorm/mul_1
+  in1 = scale4/block5/b/batchnorm/sub/_79__cf__79
+scale4/block5/b/Relu
+  op = Relu
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block5/b/batchnorm/add_1
+scale4/block5/c/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 1024)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 256, 1024)
+  in0 = scale4/block5/b/Relu
+  in1 = scale4/block5/c/weights
+scale4/block5/c/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block5/c/batchnorm/mul_1
+  in1 = scale4/block5/c/batchnorm/sub/_77__cf__77
+scale4/block5/add
+  op = Add
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block5/c/batchnorm/add_1
+  in1 = scale4/block4/Relu
+scale4/block5/Relu
+  op = Relu
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block5/add
+scale4/block6/a/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 256)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 1024, 256)
+  in0 = scale4/block5/Relu
+  in1 = scale4/block6/a/weights
+scale4/block6/a/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block6/a/batchnorm/mul_1
+  in1 = scale4/block6/a/batchnorm/sub/_87__cf__87
+scale4/block6/a/Relu
+  op = Relu
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block6/a/batchnorm/add_1
+scale4/block6/b/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 256)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (3, 3, 256, 256)
+  in0 = scale4/block6/a/Relu
+  in1 = scale4/block6/b/weights
+scale4/block6/b/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block6/b/batchnorm/mul_1
+  in1 = scale4/block6/b/batchnorm/sub/_85__cf__85
+scale4/block6/b/Relu
+  op = Relu
+  output size = (1, 14, 14, 256)
+  in0 = scale4/block6/b/batchnorm/add_1
+scale4/block6/c/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 14, 14, 1024)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 256, 1024)
+  in0 = scale4/block6/b/Relu
+  in1 = scale4/block6/c/weights
+scale4/block6/c/batchnorm/add_1
+  op = Add
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block6/c/batchnorm/mul_1
+  in1 = scale4/block6/c/batchnorm/sub/_83__cf__83
+scale4/block6/add
+  op = Add
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block6/c/batchnorm/add_1
+  in1 = scale4/block5/Relu
+scale4/block6/Relu
+  op = Relu
+  output size = (1, 14, 14, 1024)
+  in0 = scale4/block6/add
+scale5/block1/a/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 7, 7, 512)
+  padding = SAME
+  stride = [1L, 2L, 2L, 1L]
+  k = (1, 1, 1024, 512)
+  in0 = scale4/block6/Relu
+  in1 = scale5/block1/a/weights
+scale5/block1/a/batchnorm/add_1
+  op = Add
+  output size = (1, 7, 7, 512)
+  in0 = scale5/block1/a/batchnorm/mul_1
+  in1 = scale5/block1/a/batchnorm/sub/_93__cf__93
+scale5/block1/a/Relu
+  op = Relu
+  output size = (1, 7, 7, 512)
+  in0 = scale5/block1/a/batchnorm/add_1
+scale5/block1/b/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 7, 7, 512)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (3, 3, 512, 512)
+  in0 = scale5/block1/a/Relu
+  in1 = scale5/block1/b/weights
+scale5/block1/b/batchnorm/add_1
+  op = Add
+  output size = (1, 7, 7, 512)
+  in0 = scale5/block1/b/batchnorm/mul_1
+  in1 = scale5/block1/b/batchnorm/sub/_91__cf__91
+scale5/block1/b/Relu
+  op = Relu
+  output size = (1, 7, 7, 512)
+  in0 = scale5/block1/b/batchnorm/add_1
+scale5/block1/c/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 7, 7, 2048)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 512, 2048)
+  in0 = scale5/block1/b/Relu
+  in1 = scale5/block1/c/weights
+scale5/block1/c/batchnorm/add_1
+  op = Add
+  output size = (1, 7, 7, 2048)
+  in0 = scale5/block1/c/batchnorm/mul_1
+  in1 = scale5/block1/c/batchnorm/sub/_89__cf__89
+scale5/block1/shortcut/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 7, 7, 2048)
+  padding = SAME
+  stride = [1L, 2L, 2L, 1L]
+  k = (1, 1, 1024, 2048)
+  in0 = scale4/block6/Relu
+  in1 = scale5/block1/shortcut/weights
+scale5/block1/shortcut/batchnorm/add_1
+  op = Add
+  output size = (1, 7, 7, 2048)
+  in0 = scale5/block1/shortcut/batchnorm/mul_1
+  in1 = scale5/block1/shortcut/batchnorm/sub/_1__cf__1
+scale5/block1/add
+  op = Add
+  output size = (1, 7, 7, 2048)
+  in0 = scale5/block1/c/batchnorm/add_1
+  in1 = scale5/block1/shortcut/batchnorm/add_1
+scale5/block1/Relu
+  op = Relu
+  output size = (1, 7, 7, 2048)
+  in0 = scale5/block1/add
+scale5/block2/a/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 7, 7, 512)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 2048, 512)
+  in0 = scale5/block1/Relu
+  in1 = scale5/block2/a/weights
+scale5/block2/a/batchnorm/add_1
+  op = Add
+  output size = (1, 7, 7, 512)
+  in0 = scale5/block2/a/batchnorm/mul_1
+  in1 = scale5/block2/a/batchnorm/sub/_99__cf__99
+scale5/block2/a/Relu
+  op = Relu
+  output size = (1, 7, 7, 512)
+  in0 = scale5/block2/a/batchnorm/add_1
+scale5/block2/b/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 7, 7, 512)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (3, 3, 512, 512)
+  in0 = scale5/block2/a/Relu
+  in1 = scale5/block2/b/weights
+scale5/block2/b/batchnorm/add_1
+  op = Add
+  output size = (1, 7, 7, 512)
+  in0 = scale5/block2/b/batchnorm/mul_1
+  in1 = scale5/block2/b/batchnorm/sub/_97__cf__97
+scale5/block2/b/Relu
+  op = Relu
+  output size = (1, 7, 7, 512)
+  in0 = scale5/block2/b/batchnorm/add_1
+scale5/block2/c/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 7, 7, 2048)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 512, 2048)
+  in0 = scale5/block2/b/Relu
+  in1 = scale5/block2/c/weights
+scale5/block2/c/batchnorm/add_1
+  op = Add
+  output size = (1, 7, 7, 2048)
+  in0 = scale5/block2/c/batchnorm/mul_1
+  in1 = scale5/block2/c/batchnorm/sub/_95__cf__95
+scale5/block2/add
+  op = Add
+  output size = (1, 7, 7, 2048)
+  in0 = scale5/block2/c/batchnorm/add_1
+  in1 = scale5/block1/Relu
+scale5/block2/Relu
+  op = Relu
+  output size = (1, 7, 7, 2048)
+  in0 = scale5/block2/add
+scale5/block3/a/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 7, 7, 512)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 2048, 512)
+  in0 = scale5/block2/Relu
+  in1 = scale5/block3/a/weights
+scale5/block3/a/batchnorm/add_1
+  op = Add
+  output size = (1, 7, 7, 512)
+  in0 = scale5/block3/a/batchnorm/mul_1
+  in1 = scale5/block3/a/batchnorm/sub/_105__cf__105
+scale5/block3/a/Relu
+  op = Relu
+  output size = (1, 7, 7, 512)
+  in0 = scale5/block3/a/batchnorm/add_1
+scale5/block3/b/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 7, 7, 512)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (3, 3, 512, 512)
+  in0 = scale5/block3/a/Relu
+  in1 = scale5/block3/b/weights
+scale5/block3/b/batchnorm/add_1
+  op = Add
+  output size = (1, 7, 7, 512)
+  in0 = scale5/block3/b/batchnorm/mul_1
+  in1 = scale5/block3/b/batchnorm/sub/_103__cf__103
+scale5/block3/b/Relu
+  op = Relu
+  output size = (1, 7, 7, 512)
+  in0 = scale5/block3/b/batchnorm/add_1
+scale5/block3/c/batchnorm/mul_1
+  op = Conv2D
+  output size = (1, 7, 7, 2048)
+  padding = SAME
+  stride = [1L, 1L, 1L, 1L]
+  k = (1, 1, 512, 2048)
+  in0 = scale5/block3/b/Relu
+  in1 = scale5/block3/c/weights
+scale5/block3/c/batchnorm/add_1
+  op = Add
+  output size = (1, 7, 7, 2048)
+  in0 = scale5/block3/c/batchnorm/mul_1
+  in1 = scale5/block3/c/batchnorm/sub/_101__cf__101
+scale5/block3/add
+  op = Add
+  output size = (1, 7, 7, 2048)
+  in0 = scale5/block3/c/batchnorm/add_1
+  in1 = scale5/block2/Relu
+scale5/block3/Relu
+  op = Relu
+  output size = (1, 7, 7, 2048)
+  in0 = scale5/block3/add
+avg_pool/reduction_indices
+  op = Const
+  output size = (2,)
+avg_pool
+  op = Mean
+  output size = (1, 2048)
+  in0 = scale5/block3/Relu
+  in1 = avg_pool/reduction_indices
+fc/weights
+  op = Const
+  output size = (2048, 1000)
+fc/xw_plus_b/MatMul
+  op = MatMul
+  output size = (1, 1000)
+  in0 = avg_pool
+  in1 = fc/weights
+fc/biases
+  op = Const
+  output size = (1000,)
+fc/xw_plus_b
+  op = BiasAdd
+  output size = (1, 1000)
+  in0 = fc/xw_plus_b/MatMul
+  in1 = fc/biases
+prob
+  op = Softmax
+  output size = (1, 1000)
+  in0 = fc/xw_plus_b

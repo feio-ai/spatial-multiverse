@@ -973,6 +973,9 @@ c1->setNumArgOutInstrs(0);
 c1->setNumEarlyExits(0);
 c1->flushCache(1024);
 time_t tstart = time(0);
+// Need to write loop
+// While argument list isn't empty, run for 
+
 c1->run();
 time_t tend = time(0);
 double elapsed = difftime(tend, tstart);
@@ -1266,17 +1269,20 @@ exit(1);
 }
 
 int main(int argc, char *argv[]) {
-vector<string> *args = new vector<string>(argc-1);
-for (int i=1; i<argc; i++) {
-(*args)[i-1] = std::string(argv[i]);
-if (std::string(argv[i]) == "--help" | std::string(argv[i]) == "-h") {printHelp();}
-}
-int numThreads = 1;
-char *env_threads = getenv("DELITE_NUM_THREADS");
-if (env_threads != NULL) { numThreads = atoi(env_threads); } else {
-  fprintf(stderr, "[WARNING]: DELITE_NUM_THREADS undefined, defaulting to 1\n");
-}
-fprintf(stderr, "Executing with %d thread(s)\n", numThreads);
-Application(numThreads, args);
-return 0;
+
+  vector<string> *args = new vector<string>(argc-1);
+  for (int i=1; i<argc; i++) {
+    (*args)[i-1] = std::string(argv[i]);
+    if (std::string(argv[i]) == "--help" | std::string(argv[i]) == "-h") {printHelp();}
+  }
+
+  int numThreads = 1;
+  char *env_threads = getenv("DELITE_NUM_THREADS");
+  // atoi() converts string to int
+  if (env_threads != NULL) { numThreads = atoi(env_threads); } else {
+    fprintf(stderr, "[WARNING]: DELITE_NUM_THREADS undefined, defaulting to 1\n");
+  }
+  fprintf(stderr, "Executing with %d thread(s)\n", numThreads);
+  Application(numThreads, args);
+  return 0;
 }

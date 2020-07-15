@@ -15,13 +15,13 @@ import skimage.transform
 import numpy as np
 import sys
 
-if len(sys.argv) not in [2, 3, 4, 5]:
-  print 'Use this script to convert an image to .csv to give as input to Spatial'
-  print 
-  print 'Usage:   $ python  img_to_csv.py  /path/to/img.jpg  img_size(default=224,224,3)  img_mean_RGB(default=None)  img_scale(default=None)'
-  print 
-  print 'Example: $ python  img_to_csv.py  /path/to/img.jpg'
-  print 'Example: $ python  img_to_csv.py  /path/to/img.jpg  224,224,3  123.68,116.78,103.94  255.0'
+if len(sys.argv) not in [2, 3, 4, 5, 6]:
+  print('Use this script to convert an image to .csv to give as input to Spatial')
+  print() 
+  print( 'Usage:   $ python  img_to_csv.py  /path/to/img.jpg  img_size(default=224,224,3)  img_mean_RGB(default=None)  img_scale(default=None)')
+  print()
+  print('Example: $ python  img_to_csv.py  /path/to/img.jpg')
+  print('Example: $ python  img_to_csv.py  /path/to/img.jpg  224,224,3  123.68,116.78,103.94  255.0')
   sys.exit(0)
 img_path = sys.argv[1]
 
@@ -63,5 +63,10 @@ img = load_image(img_path, dims[0])
 img = img.reshape((1, dims[0], dims[1], dims[2]))
 
 # This is in row-major format
-np.savetxt('input0.csv', np.transpose(img, [0, 3, 1, 2])[0,:,:,:].flatten())
-print 'Input saved to ./input0.csv. You can move this file and update the path in the .scala file for the Spatial DNN'
+if (sys.argv[5]) : 
+  out_name = sys.argv[5]
+else:
+  out_name = 'input0.csv'
+
+np.savetxt(out_name, np.transpose(img, [0, 3, 1, 2])[0,:,:,:].flatten())
+print(f'Input saved to {out_name}. You can move this file and update the path in the .scala file for the Spatial DNN')

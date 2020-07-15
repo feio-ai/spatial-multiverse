@@ -14,6 +14,7 @@ import skimage.io
 import skimage.transform
 import numpy as np
 import sys
+import os
 
 if len(sys.argv) not in [2, 3, 4, 5, 6]:
   print('Use this script to convert an image to .csv to give as input to Spatial')
@@ -23,7 +24,18 @@ if len(sys.argv) not in [2, 3, 4, 5, 6]:
   print('Example: $ python  img_to_csv.py  /path/to/img.jpg')
   print('Example: $ python  img_to_csv.py  /path/to/img.jpg  224,224,3  123.68,116.78,103.94  255.0')
   sys.exit(0)
-img_path = sys.argv[1]
+
+img_dir = sys.argv[1]
+fil_names = []
+for file in os.listdir(img_dir):
+  if file.endswith(".jpg"):
+    file = img_dir + file
+    fil_names.append(file)
+
+
+
+# img_path = sys.argv[1]
+
 
 dims = [224, 224, 3]
 if len(sys.argv) > 2:
@@ -59,14 +71,16 @@ def load_image(path, size=224):
   resized_img[:,:,2] = resized_img[:,:,2]*scale - means[2]
   return resized_img
 
-img = load_image(img_path, dims[0])
-img = img.reshape((1, dims[0], dims[1], dims[2]))
+for f in fil_names:
+  img_path = f
+  img = load_image(img_path, dims[0])
+  img = img.reshape((1, dims[0], dims[1], dims[2]))
+  
+  new_f = os.path.splitext(img_path)[0] + '.csv'
+  if sys.argv[5] == 'auto': 
+    out_name = new_f
+  else:
+    out_name = sys.argv[5]
 
-# This is in row-major format
-if (sys.argv[5]) : 
-  out_name = sys.argv[5]
-else:
-  out_name = 'input0.csv'
-
-np.savetxt(out_name, np.transpose(img, [0, 3, 1, 2])[0,:,:,:].flatten())
-print(f'Input saved to {out_name}. You can move this file and update the path in the .scala file for the Spatial DNN')
+  np.savetxt(out_name, np.transpose(img, [0, 3, 1, 2])[0,:,:,:].flatten())
+  print(f'Input saved to {out_name}. You can move this file and update the path in the .scala file for the Spatial DNN')

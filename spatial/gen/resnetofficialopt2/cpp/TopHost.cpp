@@ -15,7 +15,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <errno.h>
-#include "FringeContext.h"
+// #include "FringeContext.h"
+#include "/../aws.sw-resources/headers/FringeContext.h"
 #include "functions.hpp"
 #include "ArgAPI.hpp"
 #include "Fixed.hpp"

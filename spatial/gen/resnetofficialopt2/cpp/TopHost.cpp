@@ -42,36 +42,51 @@ void Application(int numThreads, vector<string> * args) {
   catch (std::out_of_range& e) {
     printHelp();
   }
+  // ifstream: input stream class to operate on files
   std::ifstream x2639_file (x2638);
   assert(x2639_file.good() && "File x2638 does not exist"); 
   std::vector<string>* x2640 = new std::vector<string>; 
   if (x2639_file.is_open()) {
     while ( x2639_file.good() ) {
       string x2640_line;
+      // get contents from .csv and store in x2640
       getline (x2639_file, x2640_line);
+      
+      // used to iterate through and remove "\n"
       string x2640_delim = string("\n");
       size_t x2640_pos = 0;
+
+      // loop to remove the "\n" chars
       while (x2640_line.find(x2640_delim) != std::string::npos | x2640_line.length() > 0) {
         if (x2640_line.find(x2640_delim) != std::string::npos) {
+          // TODO: seems redundant
           x2640_pos = x2640_line.find(x2640_delim);
         } else {
           x2640_pos = x2640_line.length();
         }
         string x2640_token = x2640_line.substr(0, x2640_pos);
         x2640_line.erase(0, x2640_pos + x2640_delim.length());
+        // push to new vector x2640
         x2640->push_back(x2640_token);
       }
     }
   }
+
+  // set new value for stream internal error
   x2639_file.clear();
+  // return to beginning of file
   x2639_file.seekg(0, x2639_file.beg);
+  //close
   x2639_file.close();
+
+  // convert from string to double
   vector<double>* x2644 = new vector<double>((*x2640).size());
   for (int b5 = 0; b5 < (*x2640).size(); b5++) { 
     string x2642 = (*x2640)[b5];
     double x2643 = std::stod(x2642);
     (*x2644)[b5] = x2643;
   }
+  // Check if number of elements is correct
   int32_t x2645 = (*x2644).size();
   bool x2646 = 150528 == x2645;
   string x2647 = std::to_string(x2645);
@@ -85,8 +100,11 @@ void Application(int numThreads, vector<string> * args) {
   string x2655 = (x2654 + string(")"));
   string x2656 = (string("resnetofficialopt2.scala:43:49:") + x2655);
   string x2657 = ("\n=================\n" + (x2656 + "\n=================\n"));
+  // ASSERT defined in FringeContext
   if (true) { ASSERT(x2646, x2657.c_str()); }
   vector<double>* x2678 = new vector<double>(158700);
+
+  // Checking for matching numer of elements per row? Not sure
   for (int b22 = 0; b22 < 158700; b22++) {
     int32_t x2658 = b22 / 52900;
     int32_t x2659 = b22 / 230;
@@ -116,20 +134,27 @@ void Application(int numThreads, vector<string> * args) {
     }
     (*x2678)[b22] = x2677;
   }
+
+  // allocate memory in device memory
   uint64_t x2679 = c1->malloc(sizeof(double) * 3*230*230);
   c1->setArg(I0_PAD_DRAM_ptr, x2679, false);
   printf("Allocate mem of size 3*230*230 at %p\n", (void*)x2679);
+
   uint64_t x2680 = c1->malloc(sizeof(double) * 1008);
   c1->setArg(TMP76_DRAM_ptr, x2680, false);
   printf("Allocate mem of size 1008 at %p\n", (void*)x2680);
+
   vector<int32_t>* x2679_rawified = new vector<int32_t>((*x2678).size());
   for (int x2679_rawified_i = 0; x2679_rawified_i < (*x2678).size(); x2679_rawified_i++) {
     (*x2679_rawified)[x2679_rawified_i] = (int32_t) ((*x2678)[x2679_rawified_i] * ((int32_t)1 << 22));
   }
+
   c1->memcpy(x2679, &(*x2679_rawified)[0], (*x2679_rawified).size() * sizeof(int32_t));
   uint64_t x2682 = c1->malloc(sizeof(double) * 3*802816);
   c1->setArg(TMP_DRAM_ptr, x2682, false);
   printf("Allocate mem of size 3*802816 at %p\n", (void*)x2682);
+
+  // COPYING WEIGHTS TO DEVICE
   int32_t x2683 = (*x2637).size();
   int32_t x2684 = x2683 - 1;
   string x2685;
@@ -139,6 +164,7 @@ void Application(int numThreads, vector<string> * args) {
   catch (std::out_of_range& e) {
     printHelp();
   }
+
   string x2686 = (x2685 + string("/Fused_Conv2D_BiasAdd_k3_bias_concat.bin"));
   std::ifstream x2687 (x2686, std::ios::binary);
   assert(x2687.good() && "File x2686 does not exist"); 
@@ -973,8 +999,8 @@ c1->setNumArgOutInstrs(0);
 c1->setNumEarlyExits(0);
 c1->flushCache(1024);
 time_t tstart = time(0);
-// Need to write loop
-// While argument list isn't empty, run for 
+
+
 
 c1->run();
 time_t tend = time(0);

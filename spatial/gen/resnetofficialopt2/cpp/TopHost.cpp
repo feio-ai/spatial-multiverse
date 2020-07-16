@@ -20,6 +20,8 @@
 #include "ArgAPI.hpp"
 #include "Fixed.hpp"
 #include <vector>
+#include <filesystem>
+namespace fs = std::filesystem;
 using std::vector;
 
 #ifndef ZYNQ
@@ -1295,6 +1297,16 @@ exit(1);
 }
 
 int main(int argc, char *argv[]) {
+
+  // argv[0] will point to images directory
+  std::string path = argv[0];
+  std::vector<string> *img_list;
+  for (const auto & entry : fs::directory_iterator(path)) {
+    string img_path = entry.path();
+    img_list->push_back(img_path);
+  }
+  
+  // add all .csv files to vector
 
   vector<string> *args = new vector<string>(argc-1);
   for (int i=1; i<argc; i++) {

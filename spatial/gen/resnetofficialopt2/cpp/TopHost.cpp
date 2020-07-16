@@ -890,6 +890,7 @@ void Application(int numThreads, vector<string> * args,vector<string> * img_list
 
   vector<string>* x2600 = img_list;
   int num_img = (*x2600).size();
+
   for (int i = 0; i < num_img; i++) {
     string x2638;
     try {
@@ -1169,17 +1170,17 @@ void Application(int numThreads, vector<string> * args,vector<string> * img_list
     for (int b1324 = 1; b1324 < (*x18699).size(); b1324++) {
       Tup2FixTRUE_10_22FixTRUE_32_0 b1325 = (*x18699)[b1324];
       Tup2FixTRUE_10_22FixTRUE_32_0 b1326 = x18705;
-    double x18701 = b1325._1;
-    double x18702 = b1326._1;
-    bool x18703 = x18702 < x18701;
-    Tup2FixTRUE_10_22FixTRUE_32_0 x18704;
-    if (x18703) { 
-    x18704 = b1325;
-    }
-    else {
-    x18704 = b1326;
-    }
-    x18705 = x18704;
+      double x18701 = b1325._1;
+      double x18702 = b1326._1;
+      bool x18703 = x18702 < x18701;
+      Tup2FixTRUE_10_22FixTRUE_32_0 x18704;
+      if (x18703) { 
+        x18704 = b1325;
+      }
+      else {
+        x18704 = b1326;
+      }
+      x18705 = x18704;
     }
     int32_t x18706 = x18705._2;
     vector<Tup2FixTRUE_10_22FixTRUE_32_0>* x18716 = new vector<Tup2FixTRUE_10_22FixTRUE_32_0>(1000);
@@ -1292,8 +1293,6 @@ void Application(int numThreads, vector<string> * args,vector<string> * img_list
   
 
   }
-
-
   
   time_t tend = time(0);
   double elapsed = difftime(tend, tstart);
